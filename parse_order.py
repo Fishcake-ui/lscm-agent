@@ -203,24 +203,12 @@ TOOLS = [
             },
             "required": ["query"]
         }
-    },
-    {
-        "name": "geocode_address",
-        "description": "Convert customer area+pincode to GPS coordinates via Google Geocoding API. Call after lookup_customer when coords needed for routing. Returns lat, lon, status.",
-        "input_schema": {"type":"object","properties":{"area":{"type":"string","description":"Customer area/locality from lookup_customer result."},"pincode":{"type":"string","description":"6-digit postal code from lookup_customer result."}},"required":["area","pincode"]},
-    },
-    {
-        "name": "cluster_for_routing",
-        "description": "Group geocoded delivery stops into driver clusters using DBSCAN. Call after batch geocoding. Returns cluster assignments and driver IDs.",
-        "input_schema": {"type":"object","properties":{"deliveries":{"type":"array","description":"Stops: each needs order_id (str), lat (num), lon (num).","items":{"type":"object","properties":{"order_id":{"type":"string"},"lat":{"type":"number"},"lon":{"type":"number"}},"required":["order_id","lat","lon"]}},"eps_km":{"type":"number","description":"Radius km (default 2.5)."},"min_samples":{"type":"integer","description":"Min cluster size (default 1)."}},"required":["deliveries"]},
-    },
+    }
 ]
 
 
 def run_tool(name: str, args: dict) -> dict:
     if name == "lookup_customer": return lookup_customer(**args)
-    if name == "geocode_address": return geocode_address(**args)
-    if name == "cluster_for_routing": return cluster_for_routing(**args)
     return {"error": f"unknown tool: {name}"}
 SYSTEM_PROMPT = """You are an order-parsing agent for Abir's F&B distribution business in Pune, India.
 
