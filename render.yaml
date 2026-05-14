@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: lscm-agent
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GOOGLE_GEOCODING_API_KEY
+        sync: false
+      - key: GOOGLE_SHEETS_CREDENTIALS_JSON
+        sync: false
+      - key: GOOGLE_SHEET_ID
+        value: 1EXZthBpcymbKS4lZEhrYsfJsRxP-C99S
+      - key: PORT
+        value: 10000

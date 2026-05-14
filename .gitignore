@@ -1,0 +1,32 @@
+# Secrets / credentials
+.env
+.env.*
+*service_account*.json
+*credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+venv/
+.venv/
+env/
+
+# JSON (customers.json, test results — may contain PII or generated data)
+# Note: requirements.txt and render.yaml are not .json and remain tracked.
+*.json
+
+# Customer master / PII source files — keep off remote per DPDP constraints.
+# Canonical source is the Google Sheet (GOOGLE_SHEET_ID).
+*.xlsx
+*.xlsm
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
