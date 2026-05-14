@@ -203,7 +203,7 @@ TOOLS = [
             },
             "required": ["query"]
         }
-    }
+    },
     {
         "name": "geocode_address",
         "description": "Convert customer area+pincode to GPS coordinates via Google Geocoding API. Call after lookup_customer when coords needed for routing. Returns lat, lon, status.",
