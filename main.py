@@ -43,6 +43,7 @@ from parse_order import (  # noqa: E402 (intentional: log basicConfig first)
     MODEL_SONNET,
     parse_order,
 )
+from order_log import append_order
 
 # ---------------------------------------------------------------------------
 # Message-ID deduplication (1.4)
@@ -237,6 +238,9 @@ async def _process_one_message(msg: dict) -> None:
     except Exception as exc:
         log.exception("_process_one_message: parse_order failed")
         parsed = {"error": str(exc)}
+
+    # Persist to Sheet
+    append_order(msg_id, from_number, text_body, parsed)
 
     # Build reply
     reply_text = _build_reply(parsed)
