@@ -3,10 +3,10 @@ main.py - FastAPI entrypoint for the LSCM order agent.
 Render-deployable: binds 0.0.0.0:$PORT, exposes /health for platform checks.
 
 Routes:
-GET /                   - service info
-GET /health             - Render health probe
-POST /parse             - parse one order message (test / debug)
-POST /webhook/whatsapp  - WhatsApp BSP webhook (receives inbound, dispatches to parse_order, replies via BSP)
+GET /                    - service info
+GET /health              - Render health probe
+POST /parse              - parse one order message (test / debug)
+POST /webhook/whatsapp   - WhatsApp BSP webhook (receives inbound, dispatches to parse_order, replies via BSP)
 
 Local run:
 python main.py
@@ -24,7 +24,8 @@ from contextlib import asynccontextmanager
 from typing import Any, Optional
 
 import uvicorn
-from fastapi import FastAPI, Header, HTTPException, Request
+from fastapi import BackgroundTasks, FastAPI, HTTPException, Query, Request
+from fastapi.responses import PlainTextResponse
 from pydantic import BaseModel
 
 logging.basicConfig(
@@ -43,6 +44,28 @@ from parse_order import (  # noqa: E402 (intentional: log basicConfig first)
     parse_order,
 )
 
+# ---------------------------------------------------------------------------
+# Message-ID deduplication (1.4)
+# In-memory FIFO set capped at 1000 entries to absorb Meta retries.
+# ---------------------------------------------------------------------------
+_seen_msg_ids: set[str] = set()
+_seen_msg_ids_order: list[str] = []
+_SEEN_MAX = 1000
+
+
+def _seen_recently(msg_id: str) -> bool:
+    if not msg_id:
+        return False
+    if msg_id in _seen_msg_ids:
+        return True
+    _seen_msg_ids.add(msg_id)
+    _seen_msg_ids_order.append(msg_id)
+    if len(_seen_msg_ids_order) > _SEEN_MAX:
+        old = _seen_msg_ids_order.pop(0)
+        _seen_msg_ids.discard(old)
+    return False
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     sheet_id = os.getenv("GOOGLE_SHEET_ID")
@@ -56,9 +79,11 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="LSCM Order Agent", version="0.1.0", lifespan=lifespan)
 
+
 class ParseRequest(BaseModel):
     message: str
     model: Optional[str] = None  # "haiku" (default) | "sonnet"
+
 
 @app.get("/")
 def root() -> dict[str, Any]:
@@ -75,9 +100,11 @@ def root() -> dict[str, Any]:
         },
     }
 
+
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
+
 
 @app.post("/parse")
 def parse(req: ParseRequest) -> dict[str, Any]:
@@ -93,24 +120,27 @@ def parse(req: ParseRequest) -> dict[str, Any]:
             "raw_message": req.message,
         }
 
+
 # ================================================================
 # WhatsApp BSP Webhook
 # ================================================================
 # Environment variables expected:
-#   WHATSAPP_VERIFY_TOKEN   - the token you set in Meta developer console
-#   WHATSAPP_APP_SECRET     - Meta app secret for SHA-256 HMAC payload verification
-#   WHATSAPP_API_TOKEN      - Cloud API / BSP bearer token for sending replies
+#   WHATSAPP_VERIFY_TOKEN    - the token you set in Meta developer console
+#   WHATSAPP_APP_SECRET      - Meta app secret for SHA-256 HMAC payload verification
+#   WHATSAPP_API_TOKEN       - Cloud API / BSP bearer token for sending replies
 #   WHATSAPP_PHONE_NUMBER_ID - Phone number ID for the Cloud API send endpoint
 #
 # The webhook handles two HTTP methods:
-#   GET  /webhook/whatsapp  - Meta hub.challenge verification handshake
-#   POST /webhook/whatsapp  - Inbound message delivery
+#   GET  /webhook/whatsapp - Meta hub.challenge verification handshake
+#   POST /webhook/whatsapp - Inbound message delivery
 
+
+# 1.1 GET handshake - dot-alias query params + PlainTextResponse
 @app.get("/webhook/whatsapp")
 async def webhook_whatsapp_verify(
-    hub_mode: Optional[str] = None,
-    hub_verify_token: Optional[str] = None,
-    hub_challenge: Optional[str] = None,
+    hub_mode: Optional[str] = Query(None, alias="hub.mode"),
+    hub_verify_token: Optional[str] = Query(None, alias="hub.verify_token"),
+    hub_challenge: Optional[str] = Query(None, alias="hub.challenge"),
 ) -> Any:
     """
     Meta webhook verification handshake.
@@ -120,38 +150,44 @@ async def webhook_whatsapp_verify(
     verify_token = os.getenv("WHATSAPP_VERIFY_TOKEN", "")
     if hub_mode == "subscribe" and hub_verify_token == verify_token and hub_challenge:
         log.info("webhook/whatsapp: verification handshake OK")
-        return int(hub_challenge)
+        return PlainTextResponse(hub_challenge)
     log.warning("webhook/whatsapp: verification failed mode=%s token_match=%s",
                 hub_mode, hub_verify_token == verify_token)
     raise HTTPException(status_code=403, detail="verification failed")
 
+
+# 1.2 POST handler - ACK immediately, parse in background
 @app.post("/webhook/whatsapp")
-async def webhook_whatsapp(request: Request) -> dict[str, str]:
+async def webhook_whatsapp(request: Request, background_tasks: BackgroundTasks) -> dict[str, str]:
     """
     WhatsApp Cloud API / BSP inbound webhook.
-    
+
     Flow:
-      1. Validate HMAC-SHA256 signature from X-Hub-Signature-256 header.
-      2. Parse the payload to extract inbound text messages.
-      3. For each inbound text message, run parse_order (Haiku).
-      4. Send a brief WhatsApp reply via the Cloud API with parse result summary.
-      5. ACK 200 immediately so Meta does not retry.
+    1. Read raw body.
+    2. HMAC-SHA256 verification (fail-closed in prod).
+    3. Parse JSON payload.
+    4. Schedule _process_one_message as a background task for each text message.
+    5. Return {"status": "received"} immediately (<100 ms).
     """
     # --- 1. Read raw body (needed for HMAC check) ---
     raw_body = await request.body()
 
-    # --- 2. Signature verification ---
+    # --- 2. Signature verification (1.3 fail-closed) ---
     app_secret = os.getenv("WHATSAPP_APP_SECRET", "")
     sig_header = request.headers.get("X-Hub-Signature-256", "")
-    if app_secret:
+    if not app_secret:
+        if os.getenv("LSCM_ENV", "prod").lower() == "dev":
+            log.warning("DEV mode: HMAC verification skipped")
+        else:
+            log.error("WHATSAPP_APP_SECRET missing in prod; rejecting payload")
+            raise HTTPException(status_code=401, detail="server misconfigured")
+    else:
         expected = "sha256=" + hmac.new(
             app_secret.encode(), raw_body, hashlib.sha256
         ).hexdigest()
         if not hmac.compare_digest(sig_header, expected):
             log.warning("webhook/whatsapp: HMAC mismatch, rejecting payload")
             raise HTTPException(status_code=401, detail="invalid signature")
-    else:
-        log.debug("webhook/whatsapp: WHATSAPP_APP_SECRET not set, skipping HMAC check")
 
     # --- 3. Parse JSON payload ---
     try:
@@ -162,7 +198,7 @@ async def webhook_whatsapp(request: Request) -> dict[str, str]:
 
     log.info("webhook/whatsapp raw payload: %r", str(payload)[:400])
 
-    # --- 4. Extract inbound text messages ---
+    # --- 4. Extract inbound text messages, schedule background tasks ---
     entries = payload.get("entry", [])
     for entry in entries:
         for change in entry.get("changes", []):
@@ -172,28 +208,41 @@ async def webhook_whatsapp(request: Request) -> dict[str, str]:
                 if msg.get("type") != "text":
                     log.info("webhook/whatsapp: skipping non-text message type=%s", msg.get("type"))
                     continue
+                background_tasks.add_task(_process_one_message, msg)
 
-                from_number = msg.get("from", "")
-                text_body = msg.get("text", {}).get("body", "")
-                msg_id = msg.get("id", "")
-
-                log.info("webhook/whatsapp: inbound from=%s msg_id=%s body=%r",
-                    from_number, msg_id, text_body[:160])
-
-                # --- 5. Run order parser ---
-                try:
-                    parsed = parse_order(text_body, model=MODEL_HAIKU, verbose=False)
-                except Exception as exc:
-                    log.exception("webhook/whatsapp: parse_order failed")
-                    parsed = {"error": str(exc)}
-
-                # --- 6. Build reply text ---
-                reply_text = _build_reply(parsed)
-
-                # --- 7. Send reply via WhatsApp Cloud API ---
-                await _send_whatsapp_reply(from_number, reply_text)
-
+    # --- 5. ACK immediately ---
     return {"status": "received"}
+
+
+async def _process_one_message(msg: dict) -> None:
+    """
+    Per-message processing: dedup check, parse, build reply, send.
+    Runs as a BackgroundTask so the POST handler can ACK in <100ms.
+    """
+    msg_id = msg.get("id", "")
+    from_number = msg.get("from", "")
+    text_body = msg.get("text", {}).get("body", "")
+
+    # 1.4 Dedup check
+    if _seen_recently(msg_id):
+        log.info("_process_one_message: duplicate msg_id=%s, skipping", msg_id)
+        return
+
+    log.info("_process_one_message: from=%s msg_id=%s body=%r",
+             from_number, msg_id, text_body[:160])
+
+    # Parse
+    try:
+        parsed = parse_order(text_body, model=MODEL_HAIKU, verbose=False)
+    except Exception as exc:
+        log.exception("_process_one_message: parse_order failed")
+        parsed = {"error": str(exc)}
+
+    # Build reply
+    reply_text = _build_reply(parsed)
+
+    # Send WhatsApp reply
+    await _send_whatsapp_reply(from_number, reply_text)
 
 
 def _build_reply(parsed: dict) -> str:
@@ -254,7 +303,7 @@ async def _send_whatsapp_reply(to: str, text: str) -> None:
             log.info("_send_whatsapp_reply: sent to=%s status=200", to)
         else:
             log.warning("_send_whatsapp_reply: to=%s status=%d body=%r",
-                to, resp.status_code, resp.text[:200])
+                        to, resp.status_code, resp.text[:200])
     except Exception as exc:
         log.exception("_send_whatsapp_reply: failed to=%s err=%s", to, exc)
 
