@@ -1,35 +1,35 @@
-            """
+"""
 parse_order.py — Order parsing agent for Abir's F&B distribution (Pune)
 Anthropic API direct + Claude Haiku 4.5 with tool use.
 
 Auth: set Anthropic API key before running.
-PowerShell: $env:ANTHROPIC_API_KEY = "<your sk-ant-... key>"
-cmd.exe: set ANTHROPIC_API_KEY=<your key>
+  PowerShell:  $env:ANTHROPIC_API_KEY = "<your sk-ant-... key>"
+  cmd.exe:     set ANTHROPIC_API_KEY=<your key>
 
 Install:
-pip install anthropic
+  pip install anthropic
 
 Run:
-python parse_order.py # run all 7 test messages
-python parse_order.py "Sheraton kal 5kg pnr" # single message
-python parse_order.py --sonnet # use Sonnet 4.6 instead of Haiku
+  python parse_order.py                          # run all 7 test messages
+  python parse_order.py "Sheraton kal 5kg pnr"   # single message
+  python parse_order.py --sonnet                 # use Sonnet 4.6 instead of Haiku
 
 Customer master: customers.json must be in the same directory.
 """
 
 import anthropic
 import json
-import logging
 import os
 import re
 import sys
 import time
-import urllib.parse
-import urllib.request
 from difflib import get_close_matches
-from typing import Optional
 
 import sheets_loader
+import logging
+import urllib.parse
+import urllib.request
+from typing import Optional
 
 # ---------------- CONFIG ----------------
 MODEL_HAIKU = "claude-haiku-4-5-20251001"
@@ -40,14 +40,12 @@ MAX_TOKENS = 1024
 
 # Anthropic API pricing (USD per 1M tokens) — for cost log only
 PRICING = {
-      MODEL_HAIKU: {"in": 1.00, "out": 5.00},
-      MODEL_SONNET: {"in": 3.00, "out": 15.00},
+    MODEL_HAIKU:  {"in": 1.00, "out": 5.00},
+    MODEL_SONNET: {"in": 3.00, "out": 15.00},
 }
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CUSTOMERS_PATH = os.path.join(SCRIPT_DIR, "customers.json")
-
-log = logging.getLogger("parse_order")
 
 # ---------------- CUSTOMER MASTER ----------------
 # Prefer Google Sheets (when GOOGLE_SHEET_ID + GOOGLE_SHEETS_CREDENTIALS_JSON
@@ -55,417 +53,175 @@ log = logging.getLogger("parse_order")
 # are logged by sheets_loader.
 CUSTOMER_MASTER = sheets_loader.load_customers(local_path=CUSTOMERS_PATH)
 
-# ================================================================
-# TOOL IMPLEMENTATIONS
-# ================================================================
 
 def lookup_customer(query: str) -> dict:
-      """Fuzzy match customer name across both company masters. Top 3 matches."""
-      q = (query or "").lower().strip()
-      if not q:
-                return {"query": query, "matches": [], "count": 0}
+    """Fuzzy match customer name across both company masters. Top 3 matches."""
+    q = (query or "").lower().strip()
+    if not q:
+        return {"query": query, "matches": [], "count": 0}
 
-      matches = []
-      seen = set()
-      # 1. substring match on name + aliases
-      for c in CUSTOMER_MASTER:
-                names = [c["name"].lower()] + c.get("aliases", [])
-                for n in names:
-                              if q == n:
-                                                score = 1.0
-elif q in n or n in q:
+    matches = []
+    seen = set()
+    # 1. substring match on name + aliases
+    for c in CUSTOMER_MASTER:
+        names = [c["name"].lower()] + c.get("aliases", [])
+        for n in names:
+            if q == n:
+                score = 1.0
+            elif q in n or n in q:
                 score = 0.88
-else:
+            else:
                 continue
-              if c["id"] not in seen:
-                                seen.add(c["id"])
-                                matches.append({**_public_fields(c), "match_score": score})
-                            break
+            if c["id"] not in seen:
+                seen.add(c["id"])
+                matches.append({**_public_fields(c), "match_score": score})
+            break
 
     # 2. fallback fuzzy across all aliases
     if not matches:
-              all_aliases = [a for c in CUSTOMER_MASTER for a in [c["name"].lower()] + c.get("aliases", [])]
-              close = get_close_matches(q, all_aliases, n=5, cutoff=0.55)
-              for n in close:
-                            for c in CUSTOMER_MASTER:
-                                              if n in [c["name"].lower()] + c.get("aliases", []) and c["id"] not in seen:
-                                                                    seen.add(c["id"])
-                                                                    matches.append({**_public_fields(c), "match_score": 0.65})
+        all_aliases = [a for c in CUSTOMER_MASTER for a in [c["name"].lower()] + c.get("aliases", [])]
+        close = get_close_matches(q, all_aliases, n=5, cutoff=0.55)
+        for n in close:
+            for c in CUSTOMER_MASTER:
+                if n in [c["name"].lower()] + c.get("aliases", []) and c["id"] not in seen:
+                    seen.add(c["id"])
+                    matches.append({**_public_fields(c), "match_score": 0.65})
 
-                                  matches.sort(key=lambda m: m["match_score"], reverse=True)
-                    return {"query": query, "matches": matches[:3], "count": len(matches)}
-
-
-def geocode_address(area: str, pincode: str) -> dict:
-      """
-          Geocode a delivery address (area + pincode) using Google Geocoding API.
-              Returns lat, lon, formatted_address and a status flag.
-                  Reads GOOGLE_GEOCODING_API_KEY from the environment.
-                      Falls back gracefully if the key is absent or the request fails.
-                          """
-    api_key = os.getenv("GOOGLE_GEOCODING_API_KEY", "")
-    if not api_key:
-              return {
-                  "area": area,
-                  "pincode": pincode,
-                  "lat": None,
-                  "lon": None,
-                  "formatted_address": None,
-                  "status": "no_api_key",
-                  "error": "GOOGLE_GEOCODING_API_KEY is not set",
-    }
-
-    # Build query: "area, pincode, Pune, India" gives good results for local addresses
-    address_query = ", ".join(filter(None, [area, pincode, "Pune", "India"]))
-    params = urllib.parse.urlencode({"address": address_query, "key": api_key})
-    url = f"https://maps.googleapis.com/maps/api/geocode/json?{params}"
-
-    try:
-              with urllib.request.urlopen(url, timeout=5) as resp:
-                            data = json.loads(resp.read().decode())
-except Exception as exc:
-        return {
-                      "area": area,
-                      "pincode": pincode,
-                      "lat": None,
-                      "lon": None,
-                      "formatted_address": None,
-                      "status": "request_error",
-                      "error": str(exc),
-        }
-
-    api_status = data.get("status", "UNKNOWN")
-    if api_status != "OK" or not data.get("results"):
-              return {
-                  "area": area,
-                  "pincode": pincode,
-                  "lat": None,
-                  "lon": None,
-                  "formatted_address": None,
-                  "status": api_status,
-                  "error": f"Geocoding API returned status={api_status}",
-    }
-
-    result = data["results"][0]
-    loc = result["geometry"]["location"]
-    return {
-              "area": area,
-              "pincode": pincode,
-              "lat": loc["lat"],
-              "lon": loc["lng"],
-              "formatted_address": result.get("formatted_address"),
-              "status": "OK",
-              "error": None,
-    }
-
-
-def cluster_for_routing(
-      deliveries: list,
-      eps_km: float = 2.5,
-      min_samples: int = 1,
-) -> dict:
-      """
-          Assign deliveries to driver clusters using DBSCAN on lat/lon coordinates.
-
-              Args:
-                      deliveries: list of dicts, each with keys:
-                                  order_id (str), lat (float), lon (float),
-                                              and optionally customer_name (str), area (str).
-                                                      eps_km:     DBSCAN neighbourhood radius in kilometres (default 2.5 km).
-                                                              min_samples: minimum cluster size (default 1 so lone stops get own cluster).
-
-                                                                  Returns:
-                                                                          {
-                                                                                      "clusters": {
-                                                                                                      "0": [{"order_id": ..., "lat": ..., "lon": ..., ...}, ...],
-                                                                                                                      "1": [...],
-                                                                                                                                      ...
-                                                                                                                                                      "-1": [...]   # noise / unassignable — only present if any exist
-                                                                                                                                                                  },
-                                                                                                                                                                              "driver_assignments": [
-                                                                                                                                                                                              {"driver_id": "D1", "cluster": "0", "stop_count": N},
-                                                                                                                                                                                                              ...
-                                                                                                                                                                                                                          ],
-                                                                                                                                                                                                                                      "total_stops": N,
-                                                                                                                                                                                                                                                  "total_clusters": N,
-                                                                                                                                                                                                                                                              "error": null
-                                                                                                                                                                                                                                                                      }
-                                                                                                                                                                                                                                                                          Falls back to a pure-Python haversine implementation — no sklearn required.
-                                                                                                                                                                                                                                                                              If scikit-learn IS available it is preferred (faster for large inputs).
-                                                                                                                                                                                                                                                                                  """
-    if not deliveries:
-              return {
-                  "clusters": {},
-                  "driver_assignments": [],
-                  "total_stops": 0,
-                  "total_clusters": 0,
-                  "error": None,
-    }
-
-    # Validate: every item must have lat + lon
-    valid, invalid = [], []
-    for d in deliveries:
-              if d.get("lat") is not None and d.get("lon") is not None:
-                            valid.append(d)
-else:
-            invalid.append({**d, "cluster": "-1", "reason": "missing_coords"})
-
-    if not valid:
-              return {
-                  "clusters": {"-1": invalid},
-                  "driver_assignments": [],
-                  "total_stops": len(deliveries),
-                  "total_clusters": 0,
-                  "error": "no_valid_coordinates",
-    }
-
-    labels = _dbscan_labels(valid, eps_km=eps_km, min_samples=min_samples)
-
-    # Group by cluster label
-    clusters: dict[str, list] = {}
-    for item, label in zip(valid, labels):
-              key = str(label)
-        clusters.setdefault(key, []).append({**item, "cluster": key})
-
-    if invalid:
-              clusters.setdefault("-1", []).extend(invalid)
-
-    # Build driver assignments (one driver per non-noise cluster, sorted by size desc)
-    driver_id = 1
-    assignments = []
-    for key in sorted(clusters.keys(), key=lambda k: (k == "-1", -len(clusters[k]))):
-              if key == "-1":
-                            continue
-                        assignments.append({
-                                      "driver_id": f"D{driver_id}",
-                                      "cluster": key,
-                                      "stop_count": len(clusters[key]),
-                        })
-        driver_id += 1
-
-    return {
-              "clusters": clusters,
-              "driver_assignments": assignments,
-              "total_stops": len(deliveries),
-              "total_clusters": len(assignments),
-              "error": None,
-    }
-
-
-def _dbscan_labels(points: list, eps_km: float, min_samples: int) -> list:
-      """
-          DBSCAN clustering on lat/lon points.
-              Tries scikit-learn first (fast); falls back to a pure-Python implementation.
-                  Returns a list of integer labels aligned with `points`.
-                      """
-    try:
-              import numpy as np
-        from sklearn.cluster import DBSCAN
-
-        coords = np.radians([[p["lat"], p["lon"]] for p in points])
-        # haversine metric expects radians; eps in radians = km / R_earth
-        R_EARTH_KM = 6371.0
-        db = DBSCAN(
-                      eps=eps_km / R_EARTH_KM,
-                      min_samples=min_samples,
-                      algorithm="ball_tree",
-                      metric="haversine",
-        ).fit(coords)
-        return db.labels_.tolist()
-except ImportError:
-        pass  # fall back to pure Python below
-
-    import math
-
-    R_EARTH_KM = 6371.0
-
-    def _haversine(p1, p2):
-              lat1, lon1 = math.radians(p1["lat"]), math.radians(p1["lon"])
-        lat2, lon2 = math.radians(p2["lat"]), math.radians(p2["lon"])
-        dlat, dlon = lat2 - lat1, lon2 - lon1
-        a = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
-        return R_EARTH_KM * 2 * math.asin(math.sqrt(a))
-
-    n = len(points)
-    labels = [-1] * n
-    visited = [False] * n
-    cluster_id = 0
-
-    def _region_query(idx):
-              return [j for j in range(n) if _haversine(points[idx], points[j]) <= eps_km]
-
-    def _expand(idx, neighbours, cid):
-              labels[idx] = cid
-        i = 0
-        while i < len(neighbours):
-                      q = neighbours[i]
-                      if not visited[q]:
-                                        visited[q] = True
-                                        new_nb = _region_query(q)
-                                        if len(new_nb) >= min_samples:
-                                                              neighbours += [x for x in new_nb if x not in neighbours]
-                                                      if labels[q] == -1:
-                                                                        labels[q] = cid
-                                                                    i += 1
-
-              for idx in range(n):
-                        if visited[idx]:
-                                      continue
-                                  visited[idx] = True
-        nb = _region_query(idx)
-        if len(nb) < min_samples:
-                      labels[idx] = -1  # noise
-else:
-            _expand(idx, nb, cluster_id)
-            cluster_id += 1
-
-    return labels
+    matches.sort(key=lambda m: m["match_score"], reverse=True)
+    return {"query": query, "matches": matches[:3], "count": len(matches)}
 
 
 def _public_fields(c: dict) -> dict:
-      """Strip large/internal fields before sending to the agent."""
+    """Strip large/internal fields before sending to the agent."""
     return {
-              "id": c["id"],
-              "name": c["name"],
-              "company": c.get("company"),
-              "area": c.get("area"),
-              "pincode": c.get("pincode"),
-              "match_status": c.get("match_status"),
+        "id": c["id"],
+        "name": c["name"],
+        "company": c.get("company"),
+        "area": c.get("area"),
+        "pincode": c.get("pincode"),
+        "match_status": c.get("match_status"),
     }
 
 
-# ================================================================
-# TOOL SPEC (Anthropic API format)
-# ================================================================
+# ---------------- TOOL SPEC (Anthropic API format) ----------------
+
+
+def geocode_address(area: str, pincode: str) -> dict:
+    """Geocode area+pincode using Google Geocoding API. Returns lat, lon, status."""
+    api_key = os.getenv("GOOGLE_GEOCODING_API_KEY", "")
+    if not api_key:
+        return {"area":area,"pincode":pincode,"lat":None,"lon":None,"formatted_address":None,"status":"no_api_key","error":"GOOGLE_GEOCODING_API_KEY is not set"}
+    address_query = ", ".join(filter(None, [area, pincode, "Pune", "India"]))
+    params = urllib.parse.urlencode({"address": address_query, "key": api_key})
+    url = f"https://maps.googleapis.com/maps/api/geocode/json?{params}"
+    try:
+        with urllib.request.urlopen(url, timeout=5) as resp:
+            data = json.loads(resp.read().decode())
+    except Exception as exc:
+        return {"area":area,"pincode":pincode,"lat":None,"lon":None,"formatted_address":None,"status":"request_error","error":str(exc)}
+    api_status = data.get("status","UNKNOWN")
+    if api_status != "OK" or not data.get("results"):
+        return {"area":area,"pincode":pincode,"lat":None,"lon":None,"formatted_address":None,"status":api_status,"error":f"Geocoding API status={api_status}"}
+    result = data["results"][0]
+    loc = result["geometry"]["location"]
+    return {"area":area,"pincode":pincode,"lat":loc["lat"],"lon":loc["lng"],"formatted_address":result.get("formatted_address"),"status":"OK","error":None}
+
+
+def cluster_for_routing(deliveries: list, eps_km: float=2.5, min_samples: int=1) -> dict:
+    """Assign deliveries to driver clusters using DBSCAN on lat/lon."""
+    if not deliveries: return {"clusters":{},"driver_assignments":[],"total_stops":0,"total_clusters":0,"error":None}
+    valid, invalid = [], []
+    for d in deliveries:
+        (valid if d.get("lat") is not None and d.get("lon") is not None else invalid).append(d)
+    if not valid: return {"clusters":{"-1":invalid},"driver_assignments":[],"total_stops":len(deliveries),"total_clusters":0,"error":"no_valid_coordinates"}
+    labels = _dbscan_labels(valid, eps_km=eps_km, min_samples=min_samples)
+    clusters: dict[str,list] = {}
+    for item, label in zip(valid, labels):
+        clusters.setdefault(str(label), []).append({**item, "cluster": str(label)})
+    if invalid: clusters.setdefault("-1", []).extend(invalid)
+    driver_id = 1
+    assignments = []
+    for key in sorted(clusters.keys(), key=lambda k: (k=="-1", -len(clusters[k]))):
+        if key != "-1":
+            assignments.append({"driver_id": f"D{driver_id}", "cluster": key, "stop_count": len(clusters[key])})
+            driver_id += 1
+    return {"clusters":clusters,"driver_assignments":assignments,"total_stops":len(deliveries),"total_clusters":len(assignments),"error":None}
+
+
+def _dbscan_labels(points: list, eps_km: float, min_samples: int) -> list:
+    """DBSCAN; sklearn if available, else pure Python."""
+    try:
+        import numpy as np; from sklearn.cluster import DBSCAN
+        coords = np.radians([[p["lat"],p["lon"]] for p in points])
+        return DBSCAN(eps=eps_km/6371.0, min_samples=min_samples, algorithm="ball_tree", metric="haversine").fit(coords).labels_.tolist()
+    except ImportError: pass
+    import math
+    def _hav(p1,p2):
+        lat1,lon1=math.radians(p1["lat"]),math.radians(p1["lon"])
+        lat2,lon2=math.radians(p2["lat"]),math.radians(p2["lon"])
+        a=math.sin((lat2-lat1)/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin((lon2-lon1)/2)**2
+        return 6371.0*2*math.asin(math.sqrt(a))
+    n=len(points); labels=[-1]*n; visited=[False]*n; cid=0
+    def _rq(i): return [j for j in range(n) if _hav(points[i],points[j])<=eps_km]
+    def _exp(i,nb,c):
+        labels[i]=c; k=0
+        while k<len(nb):
+            q=nb[k]
+            if not visited[q]:
+                visited[q]=True; nn=_rq(q)
+                if len(nn)>=min_samples: nb+=[x for x in nn if x not in nb]
+            if labels[q]==-1: labels[q]=c
+            k+=1
+    for i in range(n):
+        if visited[i]: continue
+        visited[i]=True; nb=_rq(i)
+        if len(nb)<min_samples: labels[i]=-1
+        else: _exp(i,nb,cid); cid+=1
+    return labels
+
 TOOLS = [
-      {
-                "name": "lookup_customer",
-                "description": (
-                              f"Look up a customer (hotel / restaurant / catering account) by name or "
-                              f"partial name across the unified customer master ({len(CUSTOMER_MASTER)} accounts "
-                              f"spanning Abir Foods, James Smith/Capella, and shared/Both accounts). "
-                              f"Call this FIRST on every order message before extracting items. "
-                              f"Pass the customer name fragment VERBATIM from the message — preserve "
-                              f"apostrophes, capitalisation, spacing. Handles abbreviations like "
-                              f"'JW' -> JW Marriott. Returns top 3 matches with id, name, company, "
-                              f"area, pincode, match_status, and a match_score 0..1. "
-                              f"company is 'Abir Foods' | 'James Smith' | 'Both' (account exists in both Tally DBs)."
-                ),
-                "input_schema": {
-                              "type": "object",
-                              "properties": {
-                                                "query": {
-                                                                      "type": "string",
-                                                                      "description": (
-                                                                                                "Customer name fragment from the message, VERBATIM. "
-                                                                                                "Examples: 'Sheraton', 'JW marriott', \"Mila's NIBM\", 'Hilton hinjewadi'."
-                                                                      ),
-                                                }
-                              },
-                              "required": ["query"],
-                },
-      },
-      {
-                "name": "geocode_address",
-                "description": (
-                              "Convert a customer's area + pincode into GPS coordinates (lat/lon) "
-                              "using the Google Geocoding API. Call this AFTER lookup_customer when "
-                              "you have a confirmed customer match and need delivery coordinates for "
-                              "routing. Returns lat, lon, formatted_address, and a status field. "
-                              "status='OK' means success; status='no_api_key' means the key is not "
-                              "configured (coordinates will be null but the order can still proceed)."
-                ),
-                "input_schema": {
-                              "type": "object",
-                              "properties": {
-                                                "area": {
-                                                                      "type": "string",
-                                                                      "description": (
-                                                                                                "The area / locality of the customer. "
-                                                                                                "Use the 'area' field from the lookup_customer result. "
-                                                                                                "Examples: 'Koregaon Park', 'Hinjewadi', 'Viman Nagar'."
-                                                                      ),
-                                                },
-                                                "pincode": {
-                                                                      "type": "string",
-                                                                      "description": (
-                                                                                                "6-digit Indian postal code. "
-                                                                                                "Use the 'pincode' field from the lookup_customer result. "
-                                                                                                "Examples: '411001', '411057'."
-                                                                      ),
-                                                },
-                              },
-                              "required": ["area", "pincode"],
-                },
-      },
-      {
-                "name": "cluster_for_routing",
-                "description": (
-                              "Group a list of geocoded delivery stops into driver clusters using "
-                              "DBSCAN spatial clustering. Each cluster becomes one driver's route. "
-                              "Call this at the end of a batch-order session once all stops have "
-                              "been geocoded. Returns cluster assignments and suggested driver IDs. "
-                              "Noise points (cluster '-1') are stops that could not be grouped and "
-                              "need manual assignment."
-                ),
-                "input_schema": {
-                              "type": "object",
-                              "properties": {
-                                                "deliveries": {
-                                                                      "type": "array",
-                                                                      "description": (
-                                                                                                "List of delivery stops to cluster. Each item must have: "
-                                                                                                "order_id (string), lat (number), lon (number). "
-                                                                                                "Optional: customer_name (string), area (string)."
-                                                                      ),
-                                                                      "items": {
-                                                                                                "type": "object",
-                                                                                                "properties": {
-                                                                                                                              "order_id": {"type": "string"},
-                                                                                                                              "lat": {"type": "number"},
-                                                                                                                              "lon": {"type": "number"},
-                                                                                                                              "customer_name": {"type": "string"},
-                                                                                                                              "area": {"type": "string"},
-                                                                                                  },
-                                                                                                "required": ["order_id", "lat", "lon"],
-                                                                      },
-                                                },
-                                                "eps_km": {
-                                                                      "type": "number",
-                                                                      "description": (
-                                                                                                "Neighbourhood radius in kilometres for DBSCAN. "
-                                                                                                "Stops within this distance are considered the same cluster. "
-                                                                                                "Default 2.5 km works well for Pune city deliveries."
-                                                                      ),
-                                                },
-                                                "min_samples": {
-                                                                      "type": "integer",
-                                                                      "description": (
-                                                                                                "Minimum stops to form a cluster core. "
-                                                                                                "Default 1 ensures every stop gets assigned (no noise). "
-                                                                                                "Set to 2+ to allow noise for outlier detection."
-                                                                      ),
-                                                },
-                              },
-                              "required": ["deliveries"],
-                },
-      },
+    {
+        "name": "lookup_customer",
+        "description": (
+            f"Look up a customer (hotel / restaurant / catering account) by name or "
+            f"partial name across the unified customer master ({len(CUSTOMER_MASTER)} accounts "
+            f"spanning Abir Foods, James Smith/Capella, and shared/Both accounts). "
+            f"Call this FIRST on every order message before extracting items. "
+            f"Pass the customer name fragment VERBATIM from the message — preserve "
+            f"apostrophes, capitalisation, spacing. Handles abbreviations like "
+            f"'JW' -> JW Marriott. Returns top 3 matches with id, name, company, "
+            f"area, pincode, match_status, and a match_score 0..1. "
+            f"company is 'Abir Foods' | 'James Smith' | 'Both' (account exists in both Tally DBs)."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Customer name fragment from the message, VERBATIM. Examples: 'Sheraton', 'JW marriott', \"Mila's NIBM\", 'Hilton hinjewadi'."
+                }
+            },
+            "required": ["query"]
+        }
+    }
+    {
+        "name": "geocode_address",
+        "description": "Convert customer area+pincode to GPS coordinates via Google Geocoding API. Call after lookup_customer when coords needed for routing. Returns lat, lon, status.",
+        "input_schema": {"type":"object","properties":{"area":{"type":"string","description":"Customer area/locality from lookup_customer result."},"pincode":{"type":"string","description":"6-digit postal code from lookup_customer result."}},"required":["area","pincode"]},
+    },
+    {
+        "name": "cluster_for_routing",
+        "description": "Group geocoded delivery stops into driver clusters using DBSCAN. Call after batch geocoding. Returns cluster assignments and driver IDs.",
+        "input_schema": {"type":"object","properties":{"deliveries":{"type":"array","description":"Stops: each needs order_id (str), lat (num), lon (num).","items":{"type":"object","properties":{"order_id":{"type":"string"},"lat":{"type":"number"},"lon":{"type":"number"}},"required":["order_id","lat","lon"]}},"eps_km":{"type":"number","description":"Radius km (default 2.5)."},"min_samples":{"type":"integer","description":"Min cluster size (default 1)."}},"required":["deliveries"]},
+    },
 ]
 
 
 def run_tool(name: str, args: dict) -> dict:
-      if name == "lookup_customer":
-                return lookup_customer(**args)
-    if name == "geocode_address":
-              return geocode_address(**args)
-    if name == "cluster_for_routing":
-              return cluster_for_routing(**args)
+    if name == "lookup_customer": return lookup_customer(**args)
+    if name == "geocode_address": return geocode_address(**args)
+    if name == "cluster_for_routing": return cluster_for_routing(**args)
     return {"error": f"unknown tool: {name}"}
-
-
-# ================================================================
-# SYSTEM PROMPT
-# ================================================================
 SYSTEM_PROMPT = """You are an order-parsing agent for Abir's F&B distribution business in Pune, India.
 
 # IDENTITY
@@ -563,24 +319,22 @@ i) more than one customer match returned with score >= 0.85 from different IDs (
 Return ONLY this JSON object. No markdown fences. No prose before or after.
 
 {
-"raw_message": "<original message verbatim>",
-"customer_query": "<the string you passed to lookup_customer>",
-"customer_match": {"id":"...","name":"...","company":"...","area":"...","pincode":"...","match_score":0.0} OR null,
-"items": [{"product":"...","quantity":<number or null>,"unit":"kg|case|litre|piece"}],
-"delivery_when": "<plain text>",
-"amount_mentioned": <integer or null>,
-"intent": "new_order|cancel|confirmation_request|clarification_needed",
-"confidence": "high|medium|low",
-"needs_human_review": <bool>,
-"notes": "<one short line — why flagged, what's ambiguous, what to watch>"
+  "raw_message": "<original message verbatim>",
+  "customer_query": "<the string you passed to lookup_customer>",
+  "customer_match": {"id":"...","name":"...","company":"...","area":"...","pincode":"...","match_score":0.0} OR null,
+  "items": [{"product":"...","quantity":<number or null>,"unit":"kg|case|litre|piece"}],
+  "delivery_when": "<plain text>",
+  "amount_mentioned": <integer or null>,
+  "intent": "new_order|cancel|confirmation_request|clarification_needed",
+  "confidence": "high|medium|low",
+  "needs_human_review": <bool>,
+  "notes": "<one short line — why flagged, what's ambiguous, what to watch>"
 }"""
 
 
-# ================================================================
-# AGENT LOOP
-# ================================================================
+# ---------------- AGENT LOOP ----------------
 def parse_order(message: str, model: str = MODEL_HAIKU, verbose: bool = False) -> dict:
-      """Run the agent on one message. Returns parsed JSON dict (or error dict)."""
+    """Run the agent on one message. Returns parsed JSON dict (or error dict)."""
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
     messages = [{"role": "user", "content": message}]
 
@@ -588,16 +342,16 @@ def parse_order(message: str, model: str = MODEL_HAIKU, verbose: bool = False) -
     t0 = time.time()
 
     for it in range(MAX_ITERATIONS):
-              if verbose:
-                            print(f"  iter {it+1}...", end="", flush=True)
+        if verbose:
+            print(f"  iter {it+1}...", end="", flush=True)
 
         resp = client.messages.create(
-                      model=model,
-                      max_tokens=MAX_TOKENS,
-                      temperature=TEMPERATURE,
-                      system=SYSTEM_PROMPT,
-                      tools=TOOLS,
-                      messages=messages,
+            model=model,
+            max_tokens=MAX_TOKENS,
+            temperature=TEMPERATURE,
+            system=SYSTEM_PROMPT,
+            tools=TOOLS,
+            messages=messages,
         )
 
         total_in += resp.usage.input_tokens
@@ -607,94 +361,86 @@ def parse_order(message: str, model: str = MODEL_HAIKU, verbose: bool = False) -
         messages.append({"role": "assistant", "content": resp.content})
 
         if resp.stop_reason == "end_turn":
-                      text = "".join(b.text for b in resp.content if b.type == "text")
+            text = "".join(b.text for b in resp.content if b.type == "text")
             parsed = _extract_json(text, message)
             parsed["_meta"] = _meta(model, total_in, total_out, time.time() - t0, it + 1)
             if verbose:
-                              print(" done")
-                          return parsed
+                print(" done")
+            return parsed
 
         if resp.stop_reason == "tool_use":
-                      tool_results = []
+            tool_results = []
             for b in resp.content:
-                              if b.type == "tool_use":
-                                                    if verbose:
-                                                                              print(f"\n  -> {b.name}({json.dumps(b.input)})", end="")
-                                                                          out = run_tool(b.name, b.input)
-                                                    if verbose:
-                                                                              nmatch = out.get("count", "?") if isinstance(out, dict) else "?"
-                                                                              print(f" [{nmatch} match]", end="")
-                                                                          tool_results.append({
-                                                        "type": "tool_result",
-                                                        "tool_use_id": b.id,
-                                                        "content": json.dumps(out, ensure_ascii=False),
-                                                    })
-                                            messages.append({"role": "user", "content": tool_results})
+                if b.type == "tool_use":
+                    if verbose:
+                        print(f"\n    -> {b.name}({json.dumps(b.input)})", end="")
+                    out = run_tool(b.name, b.input)
+                    if verbose:
+                        nmatch = out.get("count", "?") if isinstance(out, dict) else "?"
+                        print(f"  [{nmatch} match]", end="")
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": b.id,
+                        "content": json.dumps(out, ensure_ascii=False),
+                    })
+            messages.append({"role": "user", "content": tool_results})
             continue
 
         if verbose:
-                      print(f" stopped: {resp.stop_reason}")
-        return {
-                      "error": f"unexpected stop_reason: {resp.stop_reason}",
-                      "raw_message": message,
-                      "_meta": _meta(model, total_in, total_out, time.time() - t0, it + 1),
-        }
+            print(f" stopped: {resp.stop_reason}")
+        return {"error": f"unexpected stop_reason: {resp.stop_reason}", "raw_message": message,
+                "_meta": _meta(model, total_in, total_out, time.time() - t0, it + 1)}
 
-    return {
-              "error": "max_iterations_exceeded",
-              "raw_message": message,
-              "_meta": _meta(model, total_in, total_out, time.time() - t0, MAX_ITERATIONS),
-    }
+    return {"error": "max_iterations_exceeded", "raw_message": message,
+            "_meta": _meta(model, total_in, total_out, time.time() - t0, MAX_ITERATIONS)}
 
 
 def _meta(model, t_in, t_out, secs, iters):
-      p = PRICING.get(model, {"in": 0, "out": 0})
+    p = PRICING.get(model, {"in": 0, "out": 0})
     cost_usd = (t_in / 1_000_000) * p["in"] + (t_out / 1_000_000) * p["out"]
     return {
-              "model": model,
-              "tokens_in": t_in,
-              "tokens_out": t_out,
-              "iterations": iters,
-              "latency_s": round(secs, 2),
-              "cost_usd": round(cost_usd, 6),
-              "cost_inr_approx": round(cost_usd * 84, 4),
+        "model": model,
+        "tokens_in": t_in,
+        "tokens_out": t_out,
+        "iterations": iters,
+        "latency_s": round(secs, 2),
+        "cost_usd": round(cost_usd, 6),
+        "cost_inr_approx": round(cost_usd * 84, 4),
     }
 
 
 def _extract_json(text: str, original: str) -> dict:
-      """Pull JSON object out of model output (handles ```json fences and plain)."""
+    """Pull JSON object out of model output (handles ```json fences and plain)."""
     text = text.strip()
     m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
     if m:
-              text = m.group(1)
-else:
+        text = m.group(1)
+    else:
         m = re.search(r"\{.*\}", text, re.DOTALL)
         if m:
-                      text = m.group(0)
+            text = m.group(0)
     try:
-              return json.loads(text)
-except json.JSONDecodeError as e:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
         return {"error": f"json_parse_failed: {e}", "raw_text": text[:500], "raw_message": original}
 
 
-# ================================================================
-# TEST HARNESS
-# ================================================================
+# ---------------- TEST HARNESS ----------------
 TEST_MESSAGES = [
-      "Sheraton bhai kal 5kg paneer 10kg chicken bhejna hai 8000 ka",
-      "JW marriott monday morning 3 case dairy",
-      "Pls 2kg pnr 5kg chkn for Hilton hinjewadi by 11am",
-      "Tomorrow Mila's NIBM regular order",
-      "Forest Club Karjat 50kg chicken wedding hai",
-      "Cancel yesterday's order for Sheraton",
-      "Ek case dairy aur 2kg cheese for Westin kal morning - confirmation?",
+    "Sheraton bhai kal 5kg paneer 10kg chicken bhejna hai 8000 ka",
+    "JW marriott monday morning 3 case dairy",
+    "Pls 2kg pnr 5kg chkn for Hilton hinjewadi by 11am",
+    "Tomorrow Mila's NIBM regular order",
+    "Forest Club Karjat 50kg chicken wedding hai",
+    "Cancel yesterday's order for Sheraton",
+    "Ek case dairy aur 2kg cheese for Westin kal morning - confirmation?",
 ]
 
 
 def run_tests(model: str):
-      if not os.environ.get("ANTHROPIC_API_KEY"):
-                print("ERROR: ANTHROPIC_API_KEY is not set.")
-        print("PowerShell: $env:ANTHROPIC_API_KEY = '<your sk-ant-... key>'")
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ERROR: ANTHROPIC_API_KEY is not set.")
+        print("PowerShell:  $env:ANTHROPIC_API_KEY = '<your sk-ant-... key>'")
         sys.exit(1)
 
     print(f"Model: {model}")
@@ -705,31 +451,31 @@ def run_tests(model: str):
     results = []
     grand_cost = 0.0
     for i, msg in enumerate(TEST_MESSAGES, 1):
-              print(f"\n[{i}/{len(TEST_MESSAGES)}] {msg}")
+        print(f"\n[{i}/{len(TEST_MESSAGES)}] {msg}")
         try:
-                      r = parse_order(msg, model=model, verbose=True)
+            r = parse_order(msg, model=model, verbose=True)
             results.append({"message": msg, "result": r})
             print(json.dumps(r, indent=2, ensure_ascii=False))
             grand_cost += r.get("_meta", {}).get("cost_usd", 0.0)
-except anthropic.APIError as e:
+        except anthropic.APIError as e:
             print(f"  API ERROR: {type(e).__name__}: {e}")
             results.append({"message": msg, "error": f"{type(e).__name__}: {e}"})
-except Exception as e:
+        except Exception as e:
             print(f"  EXCEPTION: {type(e).__name__}: {e}")
             results.append({"message": msg, "error": f"{type(e).__name__}: {e}"})
 
     out_path = os.path.join(SCRIPT_DIR, "parse_order_test_results.json")
     with open(out_path, "w", encoding="utf-8") as f:
-              json.dump(results, f, indent=2, ensure_ascii=False, default=str)
+        json.dump(results, f, indent=2, ensure_ascii=False, default=str)
 
     print("\n" + "=" * 78)
-    print(f"Total cost: ${grand_cost:.6f} (~\u20b9{grand_cost*84:.4f})")
+    print(f"Total cost: ${grand_cost:.6f}  (~₹{grand_cost*84:.4f})")
     print(f"Saved: {out_path}")
 
 
 def run_single(message: str, model: str):
-      if not os.environ.get("ANTHROPIC_API_KEY"):
-                print("ERROR: ANTHROPIC_API_KEY is not set.")
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("ERROR: ANTHROPIC_API_KEY is not set.")
         sys.exit(1)
     print(f"Customer master: {len(CUSTOMER_MASTER)} accounts loaded")
     r = parse_order(message, model=model, verbose=True)
@@ -737,11 +483,11 @@ def run_single(message: str, model: str):
 
 
 if __name__ == "__main__":
-      args = sys.argv[1:]
+    args = sys.argv[1:]
     model = MODEL_SONNET if "--sonnet" in args else MODEL_HAIKU
     args = [a for a in args if a != "--sonnet"]
 
     if args:
-              run_single(" ".join(args), model)
-else:
+        run_single(" ".join(args), model)
+    else:
         run_tests(model)
