@@ -1,0 +1,264 @@
+[
+  {
+    "message": "Sheraton bhai kal 5kg paneer 10kg chicken bhejna hai 8000 ka",
+    "result": {
+      "raw_message": "Sheraton bhai kal 5kg paneer 10kg chicken bhejna hai 8000 ka",
+      "customer_query": "Sheraton",
+      "customer_match": {
+        "id": "BOTH-004",
+        "name": "Sheraton Grand Pune (Bramhacorp Ltd)",
+        "company": "Both",
+        "area": "Bund Garden / Sangamvadi",
+        "pincode": "411001",
+        "match_score": 0.88
+      },
+      "items": [
+        {
+          "product": "paneer",
+          "quantity": 5,
+          "unit": "kg"
+        },
+        {
+          "product": "chicken",
+          "quantity": 10,
+          "unit": "kg"
+        }
+      ],
+      "delivery_when": "tomorrow",
+      "amount_mentioned": 8000,
+      "intent": "new_order",
+      "confidence": "high",
+      "needs_human_review": false,
+      "notes": "Clear order: Sheraton Grand Pune, 5kg paneer + 10kg chicken, delivery tomorrow, ₹8000 mentioned. All fields complete and unambiguous.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5504,
+        "tokens_out": 367,
+        "iterations": 2,
+        "latency_s": 3.15,
+        "cost_usd": 0.007339,
+        "cost_inr_approx": 0.6165
+      }
+    }
+  },
+  {
+    "message": "JW marriott monday morning 3 case dairy",
+    "result": {
+      "raw_message": "JW marriott monday morning 3 case dairy",
+      "customer_query": "JW marriott",
+      "customer_match": {
+        "id": "BOTH-018",
+        "name": "JW Marriott Pune (Ventive Hospitality Ltd)",
+        "company": "Both",
+        "area": "Yerawada",
+        "pincode": "411006",
+        "match_score": 0.88
+      },
+      "items": [
+        {
+          "product": "dairy",
+          "quantity": 3,
+          "unit": "case"
+        }
+      ],
+      "delivery_when": "monday morning",
+      "amount_mentioned": null,
+      "intent": "new_order",
+      "confidence": "medium",
+      "needs_human_review": true,
+      "notes": "Product is category 'dairy' not specific SKU (milk/curd/butter/paneer/cheese ambiguous). Multiple high-score matches returned (3 Marriott properties); picked best (BOTH-018, score 0.88) but downgraded confidence. Clarify exact dairy product needed.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5624,
+        "tokens_out": 347,
+        "iterations": 2,
+        "latency_s": 3.62,
+        "cost_usd": 0.007359,
+        "cost_inr_approx": 0.6182
+      }
+    }
+  },
+  {
+    "message": "Pls 2kg pnr 5kg chkn for Hilton hinjewadi by 11am",
+    "result": {
+      "raw_message": "Pls 2kg pnr 5kg chkn for Hilton hinjewadi by 11am",
+      "customer_query": "Hilton hinjewadi",
+      "customer_match": {
+        "id": "BOTH-009",
+        "name": "Hilton Garden Inn Hinjewadi (Alexis Hospitality LLP)",
+        "company": "Both",
+        "area": "Hinjewadi",
+        "pincode": "411057",
+        "match_score": 0.88
+      },
+      "items": [
+        {
+          "product": "paneer",
+          "quantity": 2,
+          "unit": "kg"
+        },
+        {
+          "product": "chicken",
+          "quantity": 5,
+          "unit": "kg"
+        }
+      ],
+      "delivery_when": "tomorrow by 11am",
+      "amount_mentioned": null,
+      "intent": "new_order",
+      "confidence": "high",
+      "needs_human_review": false,
+      "notes": "Clear order, confident customer match (0.88), specific items with quantities and units, delivery timing specified. No flags.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5517,
+        "tokens_out": 365,
+        "iterations": 2,
+        "latency_s": 3.2,
+        "cost_usd": 0.007342,
+        "cost_inr_approx": 0.6167
+      }
+    }
+  },
+  {
+    "message": "Tomorrow Mila's NIBM regular order",
+    "result": {
+      "raw_message": "Tomorrow Mila's NIBM regular order",
+      "customer_query": "Mila's NIBM",
+      "customer_match": {
+        "id": "BOTH-014",
+        "name": "Mila's Kitchen, NIBM",
+        "company": "Both",
+        "area": "NIBM / Mohammed Wadi",
+        "pincode": "411048",
+        "match_score": 0.88
+      },
+      "items": [],
+      "delivery_when": "tomorrow",
+      "amount_mentioned": null,
+      "intent": "new_order",
+      "confidence": "low",
+      "needs_human_review": true,
+      "notes": "Regular/standing order detected — no specific items listed. Items array is empty per guardrail. Requires human review to retrieve historical order pattern for Mila's Kitchen NIBM.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5604,
+        "tokens_out": 287,
+        "iterations": 2,
+        "latency_s": 3.1,
+        "cost_usd": 0.007039,
+        "cost_inr_approx": 0.5913
+      }
+    }
+  },
+  {
+    "message": "Forest Club Karjat 50kg chicken wedding hai",
+    "result": {
+      "raw_message": "Forest Club Karjat 50kg chicken wedding hai",
+      "customer_query": "Forest Club Karjat",
+      "customer_match": {
+        "id": "JS-052",
+        "name": "The Forest Club Karjat",
+        "company": "James Smith",
+        "area": "Karjat",
+        "pincode": "410201",
+        "match_score": 0.88
+      },
+      "items": [
+        {
+          "product": "chicken",
+          "quantity": 50,
+          "unit": "kg"
+        }
+      ],
+      "delivery_when": "not specified",
+      "amount_mentioned": null,
+      "intent": "new_order",
+      "confidence": "medium",
+      "needs_human_review": true,
+      "notes": "No delivery date/time specified — wedding event mentioned but no deadline given. Confirm delivery_when before processing. 50kg chicken is within sanity limits but wedding context suggests urgency.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5470,
+        "tokens_out": 315,
+        "iterations": 2,
+        "latency_s": 3.44,
+        "cost_usd": 0.007045,
+        "cost_inr_approx": 0.5918
+      }
+    }
+  },
+  {
+    "message": "Cancel yesterday's order for Sheraton",
+    "result": {
+      "raw_message": "Cancel yesterday's order for Sheraton",
+      "customer_query": "Sheraton",
+      "customer_match": {
+        "id": "BOTH-004",
+        "name": "Sheraton Grand Pune (Bramhacorp Ltd)",
+        "company": "Both",
+        "area": "Bund Garden / Sangamvadi",
+        "pincode": "411001",
+        "match_score": 0.88
+      },
+      "items": [],
+      "delivery_when": "not specified",
+      "amount_mentioned": null,
+      "intent": "cancel",
+      "confidence": "medium",
+      "needs_human_review": true,
+      "notes": "Cancel request — no order ID or items specified. Human must locate yesterday's order in system and verify cancellation authority.",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5470,
+        "tokens_out": 267,
+        "iterations": 2,
+        "latency_s": 3.3,
+        "cost_usd": 0.006805,
+        "cost_inr_approx": 0.5716
+      }
+    }
+  },
+  {
+    "message": "Ek case dairy aur 2kg cheese for Westin kal morning - confirmation?",
+    "result": {
+      "raw_message": "Ek case dairy aur 2kg cheese for Westin kal morning - confirmation?",
+      "customer_query": "Westin",
+      "customer_match": {
+        "id": "JS-098",
+        "name": "The Westin Pune Koregaon Park",
+        "company": "James Smith",
+        "area": "Mundhwa / KP Annexe",
+        "pincode": "411001",
+        "match_score": 0.88
+      },
+      "items": [
+        {
+          "product": "dairy",
+          "quantity": 1,
+          "unit": "case"
+        },
+        {
+          "product": "cheese",
+          "quantity": 2,
+          "unit": "kg"
+        }
+      ],
+      "delivery_when": "tomorrow morning",
+      "amount_mentioned": null,
+      "intent": "confirmation_request",
+      "confidence": "medium",
+      "needs_human_review": true,
+      "notes": "Confirmation request (not new order) — always needs human review. 'Dairy' is a category, not a specific SKU — flag for clarification on exact product (milk/curd/butter/paneer?). Customer match is strong (0.88).",
+      "_meta": {
+        "model": "claude-haiku-4-5-20251001",
+        "tokens_in": 5493,
+        "tokens_out": 378,
+        "iterations": 2,
+        "latency_s": 4.12,
+        "cost_usd": 0.007383,
+        "cost_inr_approx": 0.6202
+      }
+    }
+  }
+]

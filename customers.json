@@ -1,0 +1,6057 @@
+{
+  "customers": [
+    {
+      "id": "BOTH-001",
+      "name": "M K Hospitality, Baner",
+      "aliases": [
+        "baner",
+        "m k",
+        "m k baner",
+        "m k hospitality",
+        "m k hospitality - baner",
+        "m.k. hospitality-baner"
+      ],
+      "company": "Both",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": "M K Hospitality - Baner",
+      "js_tally": "M.K. HOSPITALITY-BANER",
+      "address": "Baner area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-002",
+      "name": "Iceburg Hospitality / Ice N Fire, Baner",
+      "aliases": [
+        "iceburg",
+        "iceburg  hospitality & entertainment llp (baner)",
+        "iceburg entertainment",
+        "iceburg entertainment baner",
+        "iceburg hospitality & entertainment llp (baner)",
+        "iceburg hospitality / ice n fire",
+        "iceburg ice",
+        "iceburg ice n fire"
+      ],
+      "company": "Both",
+      "area": "Baner / Pashan",
+      "pincode": "411069",
+      "abir_tally": "Iceburg Hospitality & Entertainment LLP (Baner)",
+      "js_tally": "Iceburg  Hospitality & Entertainment LLP (Baner)",
+      "address": "4th Floor, Kshitij Heights, Pashan Hwy Side Rd, next to Renault Showroom, Baner",
+      "phone": "+91 91306 57576",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-003",
+      "name": "The Central Park Hotel, Bund Garden",
+      "aliases": [
+        "central",
+        "central park",
+        "central park hotel",
+        "the central park",
+        "the central park hotel"
+      ],
+      "company": "Both",
+      "area": "Bund Garden / Agarkar Nagar",
+      "pincode": "411001",
+      "abir_tally": "The Central Park",
+      "js_tally": "Central Park Hotel",
+      "address": "Bund Garden Rd, Agarkar Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-004",
+      "name": "Sheraton Grand Pune (Bramhacorp Ltd)",
+      "aliases": [
+        "bramhacorp",
+        "bramhacorp limited (sherraton grand pune)",
+        "bramhacorp sherraton",
+        "bramhacorp sherraton grand pune",
+        "sheraton",
+        "sheraton grand",
+        "sheraton grand pune bramhacorp"
+      ],
+      "company": "Both",
+      "area": "Bund Garden / Sangamvadi",
+      "pincode": "411001",
+      "abir_tally": "Bramhacorp Limited (Sherraton Grand Pune)",
+      "js_tally": "Bramhacorp Limited (Sherraton Grand Pune)",
+      "address": "Raja Bahadur Motilal Rd, Bund Garden, Sangamvadi",
+      "phone": "+91 20 6641 1111",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-005",
+      "name": "Chinese Room, Camp",
+      "aliases": [
+        "chinese",
+        "chinese room",
+        "chinese room - camp",
+        "chinese room camp"
+      ],
+      "company": "Both",
+      "area": "Camp / East Street",
+      "pincode": "411001",
+      "abir_tally": "Chinese Room - Camp",
+      "js_tally": "Chinese Room",
+      "address": "2434, East St, Hulshur, Camp",
+      "phone": "+91 77588 65771",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-006",
+      "name": "Cafe Tunes × Burger Barn, MG Road Camp",
+      "aliases": [
+        "cafe",
+        "cafe tunes",
+        "cafe tunes x burger barn",
+        "cafe tunes × burger barn"
+      ],
+      "company": "Both",
+      "area": "Camp / MG Road",
+      "pincode": "411001",
+      "abir_tally": "Cafe Tunes x Burger Barn",
+      "js_tally": "CAFE TUNES X BURGER BARN",
+      "address": "26, Wonderland building basement, MG Road, Camp",
+      "phone": "+91 72766 00000 / +91 90280 80207",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-007",
+      "name": "Step Inn, FC Road",
+      "aliases": [
+        "step",
+        "step inn"
+      ],
+      "company": "Both",
+      "area": "FC Road / Shivajinagar",
+      "pincode": "411004",
+      "abir_tally": "STEP INN",
+      "js_tally": "STEP INN",
+      "address": "Shop No.6, CIAL Chambers, 1216/6, Fergusson College Rd, Ganeshwadi, Shivajinagar",
+      "phone": "+91 89569 26898",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-008",
+      "name": "392 Cocoa F&B (Patisserie inside Swig), SB Road",
+      "aliases": [
+        "392 cocoa",
+        "392 cocoa f & b services llp",
+        "392 cocoa f & b services llp - sb road",
+        "392 cocoa f b",
+        "392 cocoa f b patisserie inside swig",
+        "392 cocoa f b sb road",
+        "392 cocoa f&b (patisserie inside swig)"
+      ],
+      "company": "Both",
+      "area": "Gokhalenagar / SB Road",
+      "pincode": "411016",
+      "abir_tally": "392 Cocoa F & B Services LLP",
+      "js_tally": "392 COCOA F & B SERVICES LLP - SB ROAD",
+      "address": "Mahale Plot, 392 A, off Senapati Bapat Road, Gokhalenagar",
+      "phone": "+91 89752 26174",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-009",
+      "name": "Hilton Garden Inn Hinjewadi (Alexis Hospitality LLP)",
+      "aliases": [
+        "alexis",
+        "alexis hilton",
+        "alexis hilton hinjewadi",
+        "alexis hospitality llp (hilton hinjewadi)",
+        "hilton",
+        "hilton garden",
+        "hilton garden inn hinjewadi alexis"
+      ],
+      "company": "Both",
+      "area": "Hinjewadi",
+      "pincode": "411057",
+      "abir_tally": "Alexis Hospitality LLP (Hilton Hinjewadi)",
+      "js_tally": "Alexis Hospitality Llp (Hilton Hinjewadi)",
+      "address": "Survey 40, 3, Hinjewadi - Wakad Rd, Hinjawadi",
+      "phone": "+91 20 3500 4500",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-010",
+      "name": "Cobbler & Crew, Kalyani Nagar",
+      "aliases": [
+        "cobbler",
+        "cobbler & crew",
+        "cobbler crew",
+        "coctails",
+        "coctails of",
+        "coctails of tomorrow (cobber & crew)",
+        "coctails of tomorrow cobber crew"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "Cobbler & Crew",
+      "js_tally": "Coctails of Tomorrow (Cobber & Crew)",
+      "address": "Ground Floor, Barons Club, North Ave, opposite Jogger's Park, Kalyani Nagar",
+      "phone": "+91 93258 75685",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-011",
+      "name": "Elephant & Co., Kalyani Nagar",
+      "aliases": [
+        "elephant",
+        "elephant & co",
+        "elephant & co.",
+        "the elephant & company"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "Elephant & Co",
+      "js_tally": "The Elephant & Company",
+      "address": "Metro Traders Compound, Pushpak Society, Plot no. 88, Kalyani Nagar",
+      "phone": "+91 97668 38529",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-012",
+      "name": "Royal Orchid Central Pune, Kalyani Nagar",
+      "aliases": [
+        "royal",
+        "royal orchid",
+        "royal orchid central pune",
+        "royal orchid hotels limited"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411014",
+      "abir_tally": "Royal Orchid",
+      "js_tally": "ROYAL ORCHID HOTELS LIMITED",
+      "address": "Marisoft Annexe, Kalyani Nagar",
+      "phone": "+91 90963 00004",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-013",
+      "name": "Soy Como Soy, Koregaon Park",
+      "aliases": [
+        "soy",
+        "soy como",
+        "soy como soy"
+      ],
+      "company": "Both",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": "Soy Como Soy",
+      "js_tally": "SOY COMO SOY",
+      "address": "Power Plaza, 302, Lane No. 7, above SBI Bank, Ashok Chakra Society, Meera Nagar, Koregaon Park",
+      "phone": "+91 95293 78565",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-014",
+      "name": "Mila's Kitchen, NIBM",
+      "aliases": [
+        "mila's",
+        "mila's kitchen",
+        "mila's kitchen - nibm",
+        "mila's kitchen nibm",
+        "mila's kitchen- nibm"
+      ],
+      "company": "Both",
+      "area": "NIBM / Mohammed Wadi",
+      "pincode": "411048",
+      "abir_tally": "MILA'S KITCHEN - NIBM",
+      "js_tally": "MILA'S KITCHEN- NIBM",
+      "address": "NIBM Road area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-015",
+      "name": "Gather, SB Road",
+      "aliases": [
+        "gather",
+        "gather (eco hospitality)",
+        "gather eco"
+      ],
+      "company": "Both",
+      "area": "Senapati Bapat Road / Shivajinagar",
+      "pincode": "411004",
+      "abir_tally": "Gather (Eco Hospitality)",
+      "js_tally": "Gather (Eco Hospitality)",
+      "address": "153/A, Senapati Bapat Rd, near Demech House, Shivajinagar",
+      "phone": "+91 86004 44284",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-016",
+      "name": "Hyatt Regency Pune Viman Nagar (Ascent Hotel Pvt Ltd)",
+      "aliases": [
+        "hyatt",
+        "hyatt regency",
+        "hyatt regency pune",
+        "hyatt regency pune  unit of ascent hotel pvt ltd",
+        "hyatt regency pune unit of ascent",
+        "hyatt regency pune viman nagar ascent"
+      ],
+      "company": "Both",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "Hyatt Regency Pune",
+      "js_tally": "Hyatt regency Pune  Unit of Ascent Hotel Pvt ltd",
+      "address": "Weikfield IT Citi Info Park, Pune Nagar Rd, Sakore Nagar, Viman Nagar",
+      "phone": "+91 20 6645 1234",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-017",
+      "name": "China Grill, Wanowrie",
+      "aliases": [
+        "china",
+        "china grill",
+        "china grill (wanowrie)",
+        "china grill wanowrie"
+      ],
+      "company": "Both",
+      "area": "Wanowrie",
+      "pincode": "411040",
+      "abir_tally": "China Grill",
+      "js_tally": "China Grill (Wanowrie)",
+      "address": "Shop No. 1, Ground Floor, Green Valley Rd, Wanowrie",
+      "phone": "+91 70300 14707",
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-018",
+      "name": "JW Marriott Pune (Ventive Hospitality Ltd)",
+      "aliases": [
+        "jw",
+        "jw marriott",
+        "jw marriott pune ventive",
+        "ventive",
+        "ventive hospitality limited",
+        "ventive hospitality ltd - jw marriott pune",
+        "ventive jw",
+        "ventive jw marriott pune"
+      ],
+      "company": "Both",
+      "area": "Yerawada",
+      "pincode": "411006",
+      "abir_tally": "Ventive Hospitality Limited",
+      "js_tally": "Ventive Hospitality Ltd - JW MARRIOTT PUNE",
+      "address": "2nd Floor, Tower-D, C Wing, Deepak Nitrate Rd, Shastrinagar, Yerawada",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Outlet"
+    },
+    {
+      "id": "BOTH-019",
+      "name": "M K Hospitality (Aundh)",
+      "aliases": [
+        "(see: m k hospitality)",
+        "aundh",
+        "m k aundh",
+        "m.k.hospitality  aundh",
+        "see:",
+        "see: m k"
+      ],
+      "company": "Both",
+      "area": "Aundh",
+      "pincode": "411007",
+      "abir_tally": "(See: M K Hospitality)",
+      "js_tally": "M.K.Hospitality  Aundh",
+      "address": "Aundh",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-020",
+      "name": "M K Hospitality (parent entity)",
+      "aliases": [
+        "(see: m.k.hospitality  aundh)",
+        "m k",
+        "m k hospitality",
+        "m k parent entity",
+        "parent",
+        "parent entity",
+        "see:",
+        "see: aundh",
+        "see: m k aundh"
+      ],
+      "company": "Both",
+      "area": "Baner (probable)",
+      "pincode": "411045",
+      "abir_tally": "M K Hospitality",
+      "js_tally": "(See: M.K.Hospitality  Aundh)",
+      "address": "Pune (Baner likely — same as M K Hospitality - Baner)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-021",
+      "name": "PJ's Pub (Camp)",
+      "aliases": [
+        "(see: pj's hospitality pvt. ltd.- koregoan park)",
+        "pj's",
+        "pj's pub",
+        "pj's pub camp",
+        "pjs",
+        "pjs hospitality",
+        "see:",
+        "see: pj's",
+        "see: pj's koregoan park"
+      ],
+      "company": "Both",
+      "area": "Camp",
+      "pincode": "411001",
+      "abir_tally": "PJs Hospitality",
+      "js_tally": "(See: PJ's Hospitality Pvt. Ltd.- Koregoan Park)",
+      "address": "Camp / MG Road area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-022",
+      "name": "Bindras Hospitality Services Pvt Ltd",
+      "aliases": [
+        "(see: bindra's hospitality services llp khadki)",
+        "bindras",
+        "bindras hospitality services llp",
+        "see:",
+        "see: bindra's",
+        "see: bindra's khadki"
+      ],
+      "company": "Both",
+      "area": "Hadapsar / Ramtekdi",
+      "pincode": "411013",
+      "abir_tally": "Bindras Hospitality Services LLP",
+      "js_tally": "(See: Bindra's Hospitality Services Llp Khadki)",
+      "address": "FWR8+RW8, 120/54, Ramtekdi Industrial Area, Hadapsar",
+      "phone": "+91 98901 93737",
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-023",
+      "name": "The Leo Bar & Kitchen",
+      "aliases": [
+        "(see: leo hospitality pune  - wasabi 15 viman nagar)",
+        "leo",
+        "leo bar",
+        "leo bar kitchen",
+        "leo group",
+        "see:",
+        "see: leo",
+        "see: leo pune wasabi 15 viman nagar"
+      ],
+      "company": "Both",
+      "area": "Hinjewadi Phase 1",
+      "pincode": "411057",
+      "abir_tally": "Leo Group",
+      "js_tally": "(See: Leo Hospitality Pune  - Wasabi 15 Viman Nagar)",
+      "address": "HPXH+CHV, MIDC Road, near Laxmi Chowk, next to HP Petrol pump, Phase 1, Hinjawadi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-024",
+      "name": "Izibizi (Together Hospitality — Elephants group)",
+      "aliases": [
+        "(see: together hospitality llp)",
+        "izibizi",
+        "izibizi  (together hospitality llp)",
+        "izibizi together",
+        "izibizi together — elephants group",
+        "see:",
+        "see: together"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "(See: Together Hospitality LLP)",
+      "js_tally": "IZIBIZI  (Together Hospitality LLP)",
+      "address": "Kalyani Nagar (Elephants group)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-025",
+      "name": "Jyoti International Foods (corporate)",
+      "aliases": [
+        "(see: jyoti foods (nibm))",
+        "jyoti",
+        "jyoti foods",
+        "jyoti international",
+        "jyoti international foods corporate",
+        "see:",
+        "see: jyoti",
+        "see: jyoti foods nibm"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "Jyoti Foods",
+      "js_tally": "(See: JYOTI FOODS (NIBM))",
+      "address": "GWX3+J6V, Jogger's Park, Nilanjali Society, Kalyani Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-026",
+      "name": "Together Hospitality (Juju — Elephants group)",
+      "aliases": [
+        "(see: together hospitality llp)",
+        "see:",
+        "see: together",
+        "together",
+        "together hosiptality",
+        "together hosiptality juju",
+        "together hosiptality llp (juju)",
+        "together juju",
+        "together juju — elephants group"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "(See: Together Hospitality LLP)",
+      "js_tally": "TOGETHER HOSIPTALITY LLP (JUJU)",
+      "address": "Kalyani Nagar (Elephants group)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-027",
+      "name": "Together Hospitality (parent entity)",
+      "aliases": [
+        "(see: together hosiptality llp (juju))",
+        "see:",
+        "see: together",
+        "see: together hosiptality juju",
+        "together",
+        "together hospitality llp",
+        "together parent",
+        "together parent entity"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar (parent)",
+      "pincode": "411006",
+      "abir_tally": "Together Hospitality LLP",
+      "js_tally": "(See: TOGETHER HOSIPTALITY LLP (JUJU))",
+      "address": "Likely registered office in Kalyani Nagar (Elephants group)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-028",
+      "name": "Gingerale (parent — Goldi Sir/Kalyani Nagar area)",
+      "aliases": [
+        "(see: gingerale hospitality)",
+        "gingerale",
+        "gingerale hospitality",
+        "gingerale parent",
+        "gingerale parent — goldi sir kalyani nagar area",
+        "see:",
+        "see: gingerale"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar / NIBM",
+      "pincode": "411014",
+      "abir_tally": "(See: Gingerale Hospitality)",
+      "js_tally": "Gingerale Hospitality",
+      "address": "Kalyani Nagar / NIBM (probable)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-029",
+      "name": "Gingerale (parent entity)",
+      "aliases": [
+        "(see: gingerale hospitality)",
+        "gingerale",
+        "gingerale hospitality",
+        "gingerale parent",
+        "gingerale parent entity",
+        "see:",
+        "see: gingerale"
+      ],
+      "company": "Both",
+      "area": "Kalyani Nagar / NIBM (probable)",
+      "pincode": "411014",
+      "abir_tally": "Gingerale Hospitality",
+      "js_tally": "(See: Gingerale Hospitality)",
+      "address": "Pune — likely linked to Kalyani Nagar / NIBM cluster",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-030",
+      "name": "Bindras Hospitality Services (Khadki branch)",
+      "aliases": [
+        "(see: bindras hospitality services llp)",
+        "bindra's",
+        "bindra's hospitality services llp khadki",
+        "bindra's khadki",
+        "bindras",
+        "bindras khadki",
+        "bindras khadki branch",
+        "see:",
+        "see: bindras"
+      ],
+      "company": "Both",
+      "area": "Khadki",
+      "pincode": "411003",
+      "abir_tally": "(See: Bindras Hospitality Services LLP)",
+      "js_tally": "Bindra's Hospitality Services Llp Khadki",
+      "address": "Khadki area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-031",
+      "name": "PJ's Hospitality (KP branch)",
+      "aliases": [
+        "(see: pjs hospitality)",
+        "pj's",
+        "pj's hospitality pvt. ltd.- koregoan park",
+        "pj's koregoan",
+        "pj's koregoan park",
+        "pj's kp",
+        "pj's kp branch",
+        "see:",
+        "see: pjs"
+      ],
+      "company": "Both",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": "(See: PJs Hospitality)",
+      "js_tally": "PJ's Hospitality Pvt. Ltd.- Koregoan Park",
+      "address": "Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-032",
+      "name": "Alcon Resort Holdings (corporate)",
+      "aliases": [
+        "(see: alcon resort holdings private limited)",
+        "alcon",
+        "alcon resort",
+        "alcon resort holdings",
+        "alcon resort holdings corporate",
+        "alcon resort holdings pvt ltd",
+        "see:",
+        "see: alcon",
+        "see: alcon resort holdings"
+      ],
+      "company": "Both",
+      "area": "Lonavala / Khandala area (probable)",
+      "pincode": "410301",
+      "abir_tally": "Alcon Resort Holdings Pvt Ltd",
+      "js_tally": "(See: Alcon Resort Holdings Private Limited)",
+      "address": "Pune / Lonavala belt (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-033",
+      "name": "Alcon Resort Holdings",
+      "aliases": [
+        "(see: alcon resort holdings pvt ltd)",
+        "alcon",
+        "alcon resort",
+        "alcon resort holdings private limited",
+        "see:",
+        "see: alcon",
+        "see: alcon resort holdings"
+      ],
+      "company": "Both",
+      "area": "Lonavala area (probable)",
+      "pincode": "410301",
+      "abir_tally": "(See: Alcon Resort Holdings Pvt Ltd)",
+      "js_tally": "Alcon Resort Holdings Private Limited",
+      "address": "Pune / Lonavala belt (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-034",
+      "name": "Jyoti Foods NIBM (Murphies parent)",
+      "aliases": [
+        "(see: jyoti foods)",
+        "jyoti",
+        "jyoti foods",
+        "jyoti foods (nibm)",
+        "jyoti foods nibm",
+        "jyoti foods nibm murphies parent",
+        "see:",
+        "see: jyoti",
+        "see: jyoti foods"
+      ],
+      "company": "Both",
+      "area": "NIBM",
+      "pincode": "411048",
+      "abir_tally": "(See: Jyoti Foods)",
+      "js_tally": "JYOTI FOODS (NIBM)",
+      "address": "NIBM Rd area (linked to Murphies Bistro NIBM)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-035",
+      "name": "YA24 Cafe Peter (Nigdi)",
+      "aliases": [
+        "(see: ya24 hospitality)",
+        "see:",
+        "see: ya24",
+        "ya24",
+        "ya24 cafe",
+        "ya24 cafe peter nigdi"
+      ],
+      "company": "Both",
+      "area": "Nigdi",
+      "pincode": "411044",
+      "abir_tally": "(See: YA24 Hospitality)",
+      "js_tally": "YA24 Cafe Peter Nigdi",
+      "address": "Nigdi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-036",
+      "name": "Murphies (Prabhat Road branch)",
+      "aliases": [
+        "(see: jyoti foods)",
+        "jyoti",
+        "jyoti hospitality (murphise prabhat road)",
+        "jyoti murphise",
+        "jyoti murphise prabhat road",
+        "murphies",
+        "murphies prabhat",
+        "murphies prabhat road branch",
+        "see:",
+        "see: jyoti",
+        "see: jyoti foods"
+      ],
+      "company": "Both",
+      "area": "Prabhat Road",
+      "pincode": "411004",
+      "abir_tally": "(See: Jyoti Foods)",
+      "js_tally": "Jyoti Hospitality (Murphise Prabhat Road)",
+      "address": "Prabhat Road",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-037",
+      "name": "YA24 Hospitality (parent entity)",
+      "aliases": [
+        "(see: ya24 cafe peter nigdi)",
+        "see:",
+        "see: ya24",
+        "see: ya24 cafe peter nigdi",
+        "ya24",
+        "ya24 hospitality",
+        "ya24 parent",
+        "ya24 parent entity"
+      ],
+      "company": "Both",
+      "area": "Pune (unconfirmed)",
+      "pincode": "411001",
+      "abir_tally": "YA24 Hospitality",
+      "js_tally": "(See: YA24 Cafe Peter Nigdi)",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "BOTH-038",
+      "name": "wasabi15 Vimannagar",
+      "aliases": [
+        "(see: leo group)",
+        "leo",
+        "leo hospitality pune  - wasabi 15 viman nagar",
+        "leo pune",
+        "leo pune wasabi 15 viman nagar",
+        "see:",
+        "see: leo",
+        "see: leo group",
+        "wasabi15"
+      ],
+      "company": "Both",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "(See: Leo Group)",
+      "js_tally": "Leo Hospitality Pune  - Wasabi 15 Viman Nagar",
+      "address": "Anand Square, New Airport Rd, opposite Symbiosis International College, Sakore Nagar, Viman Nagar",
+      "phone": "+91 80107 44889",
+      "credit_days": 30,
+      "match_status": "Both — Same Group, Different Outlets"
+    },
+    {
+      "id": "AF-001",
+      "name": "Urban Bistro",
+      "aliases": [
+        "urban"
+      ],
+      "company": "Abir Foods",
+      "area": "Aundh",
+      "pincode": "411067",
+      "abir_tally": "Urban Bistro",
+      "js_tally": null,
+      "address": "Lotus Court 127/1/7, Off ITI Road, Sarja Rd, Goodwill Society, Sanewadi, Aundh",
+      "phone": "+91 87673 96727",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-002",
+      "name": "Nawab Asia (Balewadi)",
+      "aliases": [
+        "nawab",
+        "nawab asia",
+        "nawab asia balewadi"
+      ],
+      "company": "Abir Foods",
+      "area": "Balewadi / Baner",
+      "pincode": "411045",
+      "abir_tally": "Nawab Asia",
+      "js_tally": null,
+      "address": "Balewadi High St, Laxman Nagar, Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-003",
+      "name": "SOCIO KITCHEN & BAR (Baner)",
+      "aliases": [
+        "socio",
+        "socio kitchen",
+        "socio kitchen bar baner"
+      ],
+      "company": "Abir Foods",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": "Socio",
+      "js_tally": null,
+      "address": "Third Floor, Survey No 45, Trident Business Centre, Bengaluru - Mumbai Hwy, opposite Audi Showroom, Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-004",
+      "name": "Royal Orchid Hotels Limited (corporate HQ)",
+      "aliases": [
+        "royal",
+        "royal orchid",
+        "royal orchid corporate hq",
+        "royal orchid hotels limited"
+      ],
+      "company": "Abir Foods",
+      "area": "Bangalore (HQ) / Kalyani Nagar (operating)",
+      "pincode": "411014",
+      "abir_tally": "Royal Orchid Hotels Limited",
+      "js_tally": null,
+      "address": "Bangalore HQ; Pune property = Royal Orchid Central",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-005",
+      "name": "Marigold Banquets 'N' Conventions",
+      "aliases": [
+        "marigold",
+        "marigold banquets"
+      ],
+      "company": "Abir Foods",
+      "area": "Bavdhan",
+      "pincode": "411021",
+      "abir_tally": "Marigold Banquets",
+      "js_tally": null,
+      "address": "Opp. Windmill Village Rd, Bavdhan",
+      "phone": "+91 90904 04444",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-006",
+      "name": "Hotel Studio Estique",
+      "aliases": [
+        "studio",
+        "studio estique"
+      ],
+      "company": "Abir Foods",
+      "area": "Bund Garden / Agarkar Nagar",
+      "pincode": "411001",
+      "abir_tally": "Studio Estique",
+      "js_tally": null,
+      "address": "Amar Avinash Corporate Plaza, near Inox Multiplex, Bund Garden Rd, Agarkar Nagar",
+      "phone": "+91 20 4018 8444",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-007",
+      "name": "Nawab Asia (Camp outlet) — A Square is the operating entity",
+      "aliases": [
+        "a square",
+        "a square hospitality",
+        "nawab",
+        "nawab asia",
+        "nawab asia camp outlet — a square is operating entity",
+        "square"
+      ],
+      "company": "Abir Foods",
+      "area": "Camp",
+      "pincode": "411001",
+      "abir_tally": "A Square Hospitality",
+      "js_tally": null,
+      "address": "Camp area (Moledina Road)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-008",
+      "name": "Pind Punjab",
+      "aliases": [
+        "pind",
+        "pind hospitality private limited"
+      ],
+      "company": "Abir Foods",
+      "area": "Camp / Moledina Road",
+      "pincode": "411001",
+      "abir_tally": "Pind Hospitality Private Limited",
+      "js_tally": null,
+      "address": "Office no -1, 11, Moledina Grant Rd, opposite George Restaurant, Hulshur, Camp",
+      "phone": "+91 788 787 2225",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-009",
+      "name": "Shantai Hotel",
+      "aliases": [
+        "shantai"
+      ],
+      "company": "Abir Foods",
+      "area": "Camp / Rasta Peth",
+      "pincode": "411002",
+      "abir_tally": "Shantai Hotel",
+      "js_tally": null,
+      "address": "Off Moledina Road, Camp, 10/3, Rasta Peth",
+      "phone": "+91 20 4141 5151",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-010",
+      "name": "Batra Bros Foods & Beverages (corporate HQ)",
+      "aliases": [
+        "batra",
+        "batra bros",
+        "batra bros foods & beverages private limited",
+        "batra bros foods beverages",
+        "batra bros foods beverages corporate hq"
+      ],
+      "company": "Abir Foods",
+      "area": "Delhi (HQ)",
+      "pincode": "110028",
+      "abir_tally": "Batra Bros Foods & Beverages Private Limited",
+      "js_tally": null,
+      "address": "A-43, Block B, Naraina Industrial Area Phase 2, Naraina, New Delhi",
+      "phone": "+91 11 4701 9115",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-011",
+      "name": "PJ's Pub (Ghole Road)",
+      "aliases": [
+        "pj's",
+        "pj's pub",
+        "pj's pub ghole road",
+        "pjs",
+        "pjs ghole",
+        "pjs ghole road",
+        "pjs hospitality - ghole road"
+      ],
+      "company": "Abir Foods",
+      "area": "Ghole Road / Shivajinagar",
+      "pincode": "411004",
+      "abir_tally": "PJs Hospitality - Ghole Road",
+      "js_tally": null,
+      "address": "Ghole Road, near Deccan Gymkhana",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-012",
+      "name": "Favela Pune",
+      "aliases": [
+        "favela"
+      ],
+      "company": "Abir Foods",
+      "area": "Hinjewadi",
+      "pincode": "411057",
+      "abir_tally": "Favela",
+      "js_tally": null,
+      "address": "922 & terrace, Suratwala Mark Plazzo, opp. Indian Oil Petrol Pump, Hinjawadi",
+      "phone": "+91 80557 54999",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-013",
+      "name": "Credence Ventures (TTF group — operates Favela / Socio)",
+      "aliases": [
+        "credence",
+        "credence ventures",
+        "credence ventures llp",
+        "credence ventures ttf group — operates favela socio"
+      ],
+      "company": "Abir Foods",
+      "area": "Hinjewadi / Baner (probable)",
+      "pincode": "411057",
+      "abir_tally": "Credence Ventures LLP",
+      "js_tally": null,
+      "address": "Pune — likely Hinjewadi (Favela) or Baner (Socio)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-014",
+      "name": "ibis Pune Hinjewadi",
+      "aliases": [
+        "ibis",
+        "ibis hinjewadi",
+        "ibis pune"
+      ],
+      "company": "Abir Foods",
+      "area": "Hinjewadi Phase 2",
+      "pincode": "411057",
+      "abir_tally": "Ibis Hinjewadi",
+      "js_tally": null,
+      "address": "Hinjawadi Phase II, Rajiv Gandhi Infotech Park, Hinjawadi",
+      "phone": "+91 20 3995 6200",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-015",
+      "name": "TROOH – Soulful Indulgence",
+      "aliases": [
+        "trooh",
+        "trooh kitchen",
+        "trooh soulful"
+      ],
+      "company": "Abir Foods",
+      "area": "Kalyani Nagar",
+      "pincode": "411014",
+      "abir_tally": "TROOH KITCHEN",
+      "js_tally": null,
+      "address": "Ground Floor, Mulik Capital, opposite Trump Towers, Kalyani Nagar",
+      "phone": "+91 92721 13321",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-016",
+      "name": "The Flour Works",
+      "aliases": [
+        "flour",
+        "flour works",
+        "flour works hospitality llp"
+      ],
+      "company": "Abir Foods",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": "Flour Works Hospitality LLP",
+      "js_tally": null,
+      "address": "No 18, Nirvana Commercial, 3, North Ave, near ICICI Bank, Kalyani Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-017",
+      "name": "Tonique (Kalyani Nagar)",
+      "aliases": [
+        "tonique",
+        "tonique hospitality",
+        "tonique kalyani",
+        "tonique kalyani nagar"
+      ],
+      "company": "Abir Foods",
+      "area": "Kalyani Nagar",
+      "pincode": "411014",
+      "abir_tally": "Tonique Hospitality",
+      "js_tally": null,
+      "address": "Mulik Capital building, Kalyani Nagar",
+      "phone": "+91 72079 11651",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-018",
+      "name": "The Dukes Retreat",
+      "aliases": [
+        "dukes",
+        "dukes retreat",
+        "the dukes retreat pvt ltd"
+      ],
+      "company": "Abir Foods",
+      "area": "Khandala / Lonavala",
+      "pincode": "410301",
+      "abir_tally": "The Dukes Retreat Pvt Ltd",
+      "js_tally": null,
+      "address": "Old Mumbai - Pune Hwy, Khandala, Lonavala",
+      "phone": "+91 124 428 2802",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-019",
+      "name": "Chafa Cafe and Studio",
+      "aliases": [
+        "chacha",
+        "chacha cafe",
+        "chafa",
+        "chafa cafe"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": "Chacha Cafe",
+      "js_tally": null,
+      "address": "A1, Aadit Enclave, Lane 5, S Main Rd, Suyojana Society, Koregaon Park",
+      "phone": "+91 97671 00022",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-020",
+      "name": "Prem's Restaurant",
+      "aliases": [
+        "prem's"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": "Prem's Restaurant",
+      "js_tally": null,
+      "address": "28/2, N Main Rd, Opp. Lane 3, Ragvilas Society, Koregaon Park",
+      "phone": "+91 90492 88088",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-021",
+      "name": "Devdia Hospitality (parent entity)",
+      "aliases": [
+        "devdia",
+        "devdia hospitality llp",
+        "devdia parent",
+        "devdia parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park (probable)",
+      "pincode": "411001",
+      "abir_tally": "Devdia Hospitality LLP",
+      "js_tally": null,
+      "address": "Pune (Prem's group — likely Koregaon Park)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-022",
+      "name": "Li Hospitality (parent entity)",
+      "aliases": [
+        "li",
+        "li hospitality",
+        "li parent",
+        "li parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park (probable)",
+      "pincode": "411001",
+      "abir_tally": "Li Hospitality",
+      "js_tally": null,
+      "address": "Pune (likely linked to The New Club)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-023",
+      "name": "MKV Hospitality (parent entity)",
+      "aliases": [
+        "mkv",
+        "mkv hospitality",
+        "mkv parent",
+        "mkv parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park (probable)",
+      "pincode": "411001",
+      "abir_tally": "MKV Hospitality",
+      "js_tally": null,
+      "address": "Pune (Prem's group — likely Koregaon Park)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-024",
+      "name": "MKV Hospitality LLP (parent entity)",
+      "aliases": [
+        "mkv",
+        "mkv hospitality llp",
+        "mkv parent",
+        "mkv parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park (probable)",
+      "pincode": "411001",
+      "abir_tally": "MKV Hospitality LLP",
+      "js_tally": null,
+      "address": "Pune (Prem's group — likely Koregaon Park)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-025",
+      "name": "The New Club (Poona) Ltd",
+      "aliases": [
+        "li",
+        "li hospitality (new club)",
+        "li new",
+        "li new club",
+        "new",
+        "new club",
+        "new club poona"
+      ],
+      "company": "Abir Foods",
+      "area": "Koregaon Park / Camp boundary",
+      "pincode": "411001",
+      "abir_tally": "Li Hospitality (New Club)",
+      "js_tally": null,
+      "address": "2, Rajendrasinhji Rd, Koregaon Park",
+      "phone": "+91 20 2636 0631",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-026",
+      "name": "Anmol Enterprises",
+      "aliases": [
+        "anmol",
+        "anmol latur",
+        "m s anmol latur",
+        "m/s anmol enterprises (latur)"
+      ],
+      "company": "Abir Foods",
+      "area": "Latur (outside Pune)",
+      "pincode": "413531",
+      "abir_tally": "M/S Anmol Enterprises (Latur)",
+      "js_tally": null,
+      "address": "Pakharsangvi, Warwanti, Latur district",
+      "phone": "+91 2382 222 424",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-027",
+      "name": "Palm Grove Beach Hotels (corporate)",
+      "aliases": [
+        "palm",
+        "palm grove",
+        "palm grove beach",
+        "palm grove beach corporate",
+        "palm grove beach hotels pvt ltd"
+      ],
+      "company": "Abir Foods",
+      "area": "Maharashtra coast (unconfirmed)",
+      "pincode": "—",
+      "abir_tally": "Palm Grove Beach Hotels Pvt Ltd",
+      "js_tally": null,
+      "address": "Maharashtra coastal property (likely Konkan)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-028",
+      "name": "S N Hospitality (parent entity)",
+      "aliases": [
+        "parent",
+        "parent entity",
+        "s n",
+        "s n hospitality",
+        "s n parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "NIBM (probable)",
+      "pincode": "411048",
+      "abir_tally": "S N Hospitality",
+      "js_tally": null,
+      "address": "Pune — likely linked to Goldi Sir NIBM cluster",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-029",
+      "name": "Murphies - Bistro & Bar",
+      "aliases": [
+        "jyoti",
+        "jyoti hospitality",
+        "murphies",
+        "murphies bistro",
+        "murphies bistro bar"
+      ],
+      "company": "Abir Foods",
+      "area": "NIBM / Kondhwa",
+      "pincode": "411048",
+      "abir_tally": "Jyoti Hospitality",
+      "js_tally": null,
+      "address": "1st Floor, Tribeca High Street, R3, NIBM Rd, opp. Cloud Nine, Autadwadi Handewadi, Kondhwa",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-030",
+      "name": "2 Kitchens & Bar",
+      "aliases": [
+        "2 kitchens bar",
+        "2kitchen",
+        "2kitchen bar",
+        "kitchens",
+        "kitchens bar"
+      ],
+      "company": "Abir Foods",
+      "area": "NIBM / Mohammed Wadi",
+      "pincode": "411048",
+      "abir_tally": "2Kitchen Bar",
+      "js_tally": null,
+      "address": "R6 & R7 (406 & 407), Clover Hill Plaza, NIBM Rd, near Clover Hills, Mohammed Wadi",
+      "phone": "+91 96079 83684",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-031",
+      "name": "BEER & BEANS",
+      "aliases": [
+        "beer",
+        "beer beans"
+      ],
+      "company": "Abir Foods",
+      "area": "NIBM / Mohammed Wadi",
+      "pincode": "411048",
+      "abir_tally": "Beer & Beans",
+      "js_tally": null,
+      "address": "Ground Floor, Clover Hill Plaza, NIBM Rd, Autadwadi Handewadi, Mohammed Wadi",
+      "phone": "+91 96079 83692",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-032",
+      "name": "Global Punjab (Nagar Road branch)",
+      "aliases": [
+        "global",
+        "global punjab",
+        "global punjab nagar road",
+        "global punjab nagar road branch",
+        "the global punjab-nagar road"
+      ],
+      "company": "Abir Foods",
+      "area": "Nagar Road / Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "The Global Punjab-Nagar Road",
+      "js_tally": null,
+      "address": "Nagar Road, Viman Nagar / Kharadi corridor (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-033",
+      "name": "FML - Food Music Love (Pashan)",
+      "aliases": [
+        "fml",
+        "fml food",
+        "fml food music love pashan",
+        "fml hospitality pvt ltd"
+      ],
+      "company": "Abir Foods",
+      "area": "Pashan / Baner",
+      "pincode": "411045",
+      "abir_tally": "FML HOSPITALITY PVT LTD",
+      "js_tally": null,
+      "address": "Plot No 106, Vardayani Society, Sus Road Baner Gaon, Pashan",
+      "phone": "+91 78880 07755",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-034",
+      "name": "Marriott property owner-operator",
+      "aliases": [
+        "marriott",
+        "marriott property",
+        "marriott property owner operator",
+        "wellcraft",
+        "wellcraft infraprojects",
+        "wellcraft infraprojects private limited"
+      ],
+      "company": "Abir Foods",
+      "area": "Pune (likely SB Road)",
+      "pincode": "411016",
+      "abir_tally": "Wellcraft Infraprojects Private Limited",
+      "js_tally": null,
+      "address": "Pune (Marriott portfolio)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-035",
+      "name": "Marriott property operated by Duet India Hotels",
+      "aliases": [
+        "duet",
+        "duet india",
+        "duet india hotels pune pvt ltd",
+        "duet india pune",
+        "marriott",
+        "marriott property",
+        "marriott property operated by duet india"
+      ],
+      "company": "Abir Foods",
+      "area": "Pune (operating) / Gurugram (HQ)",
+      "pincode": "411036",
+      "abir_tally": "Duet India Hotels Pune Pvt Ltd",
+      "js_tally": null,
+      "address": "Pune (Marriott portfolio); HQ Gurugram 122015",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-036",
+      "name": "Chacha Inn (Pune outlet to verify)",
+      "aliases": [
+        "chacha",
+        "chacha inn",
+        "chacha inn pune outlet to verify"
+      ],
+      "company": "Abir Foods",
+      "area": "Pune (unconfirmed)",
+      "pincode": "411001",
+      "abir_tally": "Chacha Inn",
+      "js_tally": null,
+      "address": "Pune (verify location)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-037",
+      "name": "Food Kraft Hospitality (parent entity)",
+      "aliases": [
+        "food",
+        "food kraft",
+        "food kraft hospitality",
+        "food kraft parent entity"
+      ],
+      "company": "Abir Foods",
+      "area": "Pune (unconfirmed)",
+      "pincode": "411001",
+      "abir_tally": "Food Kraft Hospitality",
+      "js_tally": null,
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-038",
+      "name": "Udane Sons Enterprises (likely Udane Shewale Enterprises)",
+      "aliases": [
+        "udane",
+        "udane sons",
+        "udane sons enterprises llp",
+        "udane sons likely udane shewale"
+      ],
+      "company": "Abir Foods",
+      "area": "Rasta Peth / Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": "Udane Sons Enterprises LLP",
+      "js_tally": null,
+      "address": "292, Koregaon Rd, Ragvilas Society, Rasta Peth",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-039",
+      "name": "Saffron Hospitality & Caterers (probable)",
+      "aliases": [
+        "saffron",
+        "saffron caterers",
+        "saffron caterers probable",
+        "saffroniaa",
+        "saffroniaa hospitality llp"
+      ],
+      "company": "Abir Foods",
+      "area": "Shivajinagar",
+      "pincode": "411004",
+      "abir_tally": "Saffroniaa Hospitality LLP",
+      "js_tally": null,
+      "address": "925/B/9, Deendayal Hospital Ln, Bhamburda, Shivajinagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-040",
+      "name": "NH37 Dhaba",
+      "aliases": [
+        "37 dhaba",
+        "n h 37 dhaba",
+        "nh37"
+      ],
+      "company": "Abir Foods",
+      "area": "Shivajinagar / Range Hill",
+      "pincode": "411016",
+      "abir_tally": "N H 37 Dhaba",
+      "js_tally": null,
+      "address": "Range Hill Corner, Premnagar, Shivajinagar",
+      "phone": "+91 80070 60002",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-041",
+      "name": "7 Apple Hotel - Viman Nagar, Pune",
+      "aliases": [
+        "7 apple",
+        "7 apple hotel - viman nagar",
+        "7 apple hotels pvt ltd",
+        "7 apple viman nagar",
+        "apple",
+        "apple viman"
+      ],
+      "company": "Abir Foods",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "7 Apple Hotels Pvt Ltd",
+      "js_tally": null,
+      "address": "Plot No. 6, Road, near Clover Park, Air Force Campus, Viman Nagar",
+      "phone": "+91 77700 85757",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-042",
+      "name": "Atmosphere 6",
+      "aliases": [
+        "atmosphere"
+      ],
+      "company": "Abir Foods",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "Atmosphere 6",
+      "js_tally": null,
+      "address": "Unit 601-602, Sky Max Mall, Viman Nagar Rd, Konark Nagar, Clover Park, Viman Nagar",
+      "phone": "+91 92840 26859",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-043",
+      "name": "Hotel Parc Estique",
+      "aliases": [
+        "parc",
+        "parc estique"
+      ],
+      "company": "Abir Foods",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "Parc Estique",
+      "js_tally": null,
+      "address": "Pune Nagar Rd, next to Phoenix Market City, Clover Park, Viman Nagar",
+      "phone": "+91 20 4100 4100",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-044",
+      "name": "ibis Pune Viman Nagar",
+      "aliases": [
+        "ibis",
+        "ibis pune"
+      ],
+      "company": "Abir Foods",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": "Ibis Pune",
+      "js_tally": null,
+      "address": "Survey No 32, Viman Nagar Rd, Viman Nagar",
+      "phone": "+91 20 4018 4018",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-045",
+      "name": "Degchi Biryani",
+      "aliases": [
+        "degchi"
+      ],
+      "company": "Abir Foods",
+      "area": "Wadgaon Sheri / Chandan Nagar",
+      "pincode": "411014",
+      "abir_tally": "Degchi",
+      "js_tally": null,
+      "address": "Sangharsh Chowk, opp. Pradeep Book Depo, Chandan Nagar, Wadgaon Sheri",
+      "phone": "+91 98237 47358",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-046",
+      "name": "Hotel Arora",
+      "aliases": [
+        "arora",
+        "arora hospitality services"
+      ],
+      "company": "Abir Foods",
+      "area": "Wadgaon Sheri / Chandan Nagar",
+      "pincode": "411014",
+      "abir_tally": "Arora Hospitality Services",
+      "js_tally": null,
+      "address": "Shop No.1, Sai Mandir, Sai Nagari, Chandan Nagar, Wadgaon Sheri",
+      "phone": "+91 86001 12130",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-047",
+      "name": "Shahji's Caterers & Banqueters",
+      "aliases": [
+        "shahji's",
+        "shahji's caterers",
+        "shahji's caterers banqueters",
+        "shahjis",
+        "shahjis grand",
+        "shahjis grand caterers"
+      ],
+      "company": "Abir Foods",
+      "area": "Wanowrie",
+      "pincode": "411040",
+      "abir_tally": "Shahjis Grand Caterers",
+      "js_tally": null,
+      "address": "1st Floor, F-24 Sacred World, Jagtap Chowk, Wanowrie",
+      "phone": "+91 93710 24685",
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-048",
+      "name": "Rapid Hospitality Solutions",
+      "aliases": [
+        "rapid",
+        "rapid hospitality solution",
+        "rapid solution",
+        "rapid solutions"
+      ],
+      "company": "Abir Foods",
+      "area": "Warje",
+      "pincode": "411038",
+      "abir_tally": "Rapid Hospitality Solution",
+      "js_tally": null,
+      "address": "Block No. 6, Prathmesh Apartment, near Cipla Foundation Cancer Research Centre, Warje",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "AF-049",
+      "name": "Rapid Hospitality Solutions",
+      "aliases": [
+        "rapid",
+        "rapid solutions"
+      ],
+      "company": "Abir Foods",
+      "area": "Warje",
+      "pincode": "411038",
+      "abir_tally": "Rapid Hospitality Solutions",
+      "js_tally": null,
+      "address": "Block No. 6, Prathmesh Apartment, near Cipla Foundation Cancer Research Centre, Warje",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "Abir Only"
+    },
+    {
+      "id": "JS-001",
+      "name": "Ramee Grand Hotel and Spa, Pune",
+      "aliases": [
+        "hotel ramee grand",
+        "ramee",
+        "ramee grand",
+        "ramee grand and spa",
+        "ramee grand hotel and spa"
+      ],
+      "company": "James Smith",
+      "area": "Apte Rd / Shivajinagar",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "Hotel Ramee Grand",
+      "address": "CTS 1221/C, Plot 587, Apte Rd, Shivajinagar",
+      "phone": "+91 20 6684 6565",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-002",
+      "name": "Kimling Chinese Cuisine (Aundh)",
+      "aliases": [
+        "kimling",
+        "kimling chinese",
+        "kimling chinese cuisine aundh"
+      ],
+      "company": "James Smith",
+      "area": "Aundh",
+      "pincode": "411007",
+      "abir_tally": null,
+      "js_tally": "Kimling Chinese Cuisine (Aundh)",
+      "address": "Aundh",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-003",
+      "name": "Two Good Sisters LLP (Aundh — duplicate)",
+      "aliases": [
+        "two",
+        "two good",
+        "two good sisters aundh",
+        "two good sisters aundh — duplicate",
+        "two good sisters llp aundh"
+      ],
+      "company": "James Smith",
+      "area": "Aundh",
+      "pincode": "411067",
+      "abir_tally": null,
+      "js_tally": "TWO GOOD SISTERS LLP AUNDH",
+      "address": "Aundh",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-004",
+      "name": "Asia Kitchen by Mainland China (DP Road / Aundh)",
+      "aliases": [
+        "asia",
+        "asia kitchen",
+        "asia kitchen by mainland china dp road aundh",
+        "asia kitchen dp road"
+      ],
+      "company": "James Smith",
+      "area": "Aundh / DP Road",
+      "pincode": "411007",
+      "abir_tally": null,
+      "js_tally": "Asia Kitchen DP Road",
+      "address": "DP Road, Aundh",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-005",
+      "name": "Two Good (food art studio) Aundh",
+      "aliases": [
+        "two",
+        "two good",
+        "two good food art studio aundh",
+        "two good sisters (aundh)",
+        "two good sisters aundh"
+      ],
+      "company": "James Smith",
+      "area": "Aundh / Sanewadi",
+      "pincode": "411067",
+      "abir_tally": null,
+      "js_tally": "Two Good Sisters (Aundh)",
+      "address": "Gaikwad Heights, Seasons Rd, next to Seasons Hotel, Aundh",
+      "phone": "+91 99224 16484",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-006",
+      "name": "Dorabjee's Balewadi",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt ltd ( balewadi)",
+        "dorabjee balewadi",
+        "dorabjee's"
+      ],
+      "company": "James Smith",
+      "area": "Balewadi",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt Ltd ( Balewadi)",
+      "address": "Balewadi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-007",
+      "name": "The Orchid Hotel Pune",
+      "aliases": [
+        "orchid",
+        "orchid hotel pune pvt. ltd",
+        "orchid pune"
+      ],
+      "company": "James Smith",
+      "area": "Balewadi",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "Orchid Hotel Pune PVt. Ltd",
+      "address": "Shree Shiv Chhatrapati Sports Complex, Bengaluru-Mumbai Hwy, Balewadi",
+      "phone": "+91 91691 66789",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-008",
+      "name": "The Boho House",
+      "aliases": [
+        "boho",
+        "boho house",
+        "boho house tbh",
+        "the boho house (tbh hospitality)"
+      ],
+      "company": "James Smith",
+      "area": "Balewadi / Baner",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "The boho house (TBH HOSPITALITY)",
+      "address": "Dharamveer Nagar, Park Grandeur, Laxman Nagar, Balewadi",
+      "phone": "+91 86000 17848",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-009",
+      "name": "Flint Hospitality (Bandra East)",
+      "aliases": [
+        "flint",
+        "flint bandra",
+        "flint bandra e",
+        "flint bandra east",
+        "flint hospitality pvt ltd-bandra e"
+      ],
+      "company": "James Smith",
+      "area": "Bandra East, Mumbai",
+      "pincode": "400051",
+      "abir_tally": null,
+      "js_tally": "FLINT HOSPITALITY PVT LTD-BANDRA E",
+      "address": "Bandra East, Mumbai",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-010",
+      "name": "Bohemian Hospitality (parent)",
+      "aliases": [
+        "bohemian",
+        "bohemian hospitality pvt. ltd",
+        "bohemian parent"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "Bohemian Hospitality Pvt. Ltd",
+      "address": "Pune (likely Baner)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-011",
+      "name": "Chug Biergarten",
+      "aliases": [
+        "bohemian",
+        "bohemian baner",
+        "bohemian baner chug biergarte",
+        "bohemian hospitality pvt. ltd baner- chug biergarte",
+        "chug"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411069",
+      "abir_tally": null,
+      "js_tally": "Bohemian Hospitality Pvt. Ltd Baner- Chug Biergarte",
+      "address": "1st floor, Atria Mall, Kapil Malhar, Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-012",
+      "name": "Ember Collective (Baner)",
+      "aliases": [
+        "ember",
+        "ember collective",
+        "ember collective baner",
+        "ember collective llp baner"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "Ember Collective Llp Baner",
+      "address": "Baner area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-013",
+      "name": "FLOW - All Day Bar",
+      "aliases": [
+        "alimentary",
+        "alimentary flow",
+        "alimentary flow bar baner",
+        "alimentary hospitality llp flow bar baner",
+        "flow",
+        "flow all",
+        "flow all day bar"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411069",
+      "abir_tally": null,
+      "js_tally": "Alimentary Hospitality LLP Flow Bar Baner",
+      "address": "The Mint, Baner Rd, Baner Bio-Diversity Park, Baner",
+      "phone": "+91 86001 41639",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-014",
+      "name": "Grove & Rihla Hospitalities (parent — Layers)",
+      "aliases": [
+        "grove",
+        "grove & rihla hospitalities",
+        "grove rihla",
+        "grove rihla hospitalities",
+        "grove rihla hospitalities parent — layers"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411069",
+      "abir_tally": null,
+      "js_tally": "GROVE & RIHLA HOSPITALITIES",
+      "address": "Sutarwadi Baner Gaon Rd, Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-015",
+      "name": "Layers",
+      "aliases": [
+        "grove",
+        "grove & rihla hospitalities - layers",
+        "grove rihla",
+        "grove rihla hospitalities layers"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411069",
+      "abir_tally": null,
+      "js_tally": "GROVE & RIHLA HOSPITALITIES - Layers",
+      "address": "Ground floor, Vyankatesh building, Sutarwadi Baner Gaon Rd, near Ganraj Mangal Karyalay, Baner Gaon",
+      "phone": "+91 91723 24807",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-016",
+      "name": "Le Grande Hospitality (Baner)",
+      "aliases": [
+        "le",
+        "le grande",
+        "le grande baner",
+        "le grande hospitality baner"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "LE GRANDE HOSPITALITY BANER",
+      "address": "Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-017",
+      "name": "Sora Hospitality (Baner)",
+      "aliases": [
+        "sora",
+        "sora baner",
+        "sora hospitality - baner"
+      ],
+      "company": "James Smith",
+      "area": "Baner",
+      "pincode": "411045",
+      "abir_tally": null,
+      "js_tally": "SORA HOSPITALITY - BANER",
+      "address": "Baner",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-018",
+      "name": "Punjab Sind Dairy (Baner)",
+      "aliases": [
+        "punjab",
+        "punjab sind",
+        "punjab sind dairy baner",
+        "punjabi",
+        "punjabi dairy"
+      ],
+      "company": "James Smith",
+      "area": "Baner / Pancard Club Rd",
+      "pincode": "411069",
+      "abir_tally": null,
+      "js_tally": "PUNJABI DAIRY",
+      "address": "Shop 3, Swojas Soiltaire, Pancard Club Rd, Baner",
+      "phone": "+91 86986 00227",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-019",
+      "name": "AIM Leisure (parent — Bavdhan group)",
+      "aliases": [
+        "aim",
+        "aim leisure",
+        "aim leisure llp",
+        "aim leisure parent — bavdhan group"
+      ],
+      "company": "James Smith",
+      "area": "Bavdhan",
+      "pincode": "411021",
+      "abir_tally": null,
+      "js_tally": "AIM Leisure LLP",
+      "address": "Bavdhan (Chafa Cafe Bavdhan group)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-020",
+      "name": "Chafa Cafe Bavdhan",
+      "aliases": [
+        "aim",
+        "aim leisure",
+        "aim leisure chafa cafe bavdhan",
+        "aim leisure llp (chafa cafe bavdhan)",
+        "chafa",
+        "chafa cafe"
+      ],
+      "company": "James Smith",
+      "area": "Bavdhan",
+      "pincode": "411021",
+      "abir_tally": null,
+      "js_tally": "AIM LEISURE LLP (CHAFA CAFE BAVDHAN)",
+      "address": "Bavdhan",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-021",
+      "name": "J V Hospitality (Bavdhan)",
+      "aliases": [
+        "bavdhan",
+        "j v bavdhan",
+        "j v hospitality bavdhan"
+      ],
+      "company": "James Smith",
+      "area": "Bavdhan",
+      "pincode": "411021",
+      "abir_tally": null,
+      "js_tally": "J V Hospitality Bavdhan",
+      "address": "Bavdhan",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-022",
+      "name": "Oxford Golf Resort",
+      "aliases": [
+        "oxford",
+        "oxford golf",
+        "oxford golf resort ( bavdan)",
+        "oxford golf resort bavdan"
+      ],
+      "company": "James Smith",
+      "area": "Bavdhan / Lavale",
+      "pincode": "412115",
+      "abir_tally": null,
+      "js_tally": "Oxford Golf Resort ( Bavdan)",
+      "address": "Mumbai-Bangalore Highway, next to Crystal Honda, Bavdhan, Lavale",
+      "phone": "+91 20 6792 1000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-023",
+      "name": "Food Junction Boat Club Road",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction (boat club road)"
+      ],
+      "company": "James Smith",
+      "area": "Boat Club Road",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Food Junction (Boat Club Road)",
+      "address": "Boat Club Road",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-024",
+      "name": "Maharashtra Foods (Boat Club Road)",
+      "aliases": [
+        "maharashtra",
+        "maharashtra foods",
+        "maharashtra foods boat club road",
+        "maharastra",
+        "maharastra foods",
+        "maharastra foods pan club road"
+      ],
+      "company": "James Smith",
+      "area": "Boat Club Road",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Maharastra Foods Pan Club Road",
+      "address": "Boat Club Road area (Pan Club likely typo)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-025",
+      "name": "Krish Foods (Bund Garden Rd)",
+      "aliases": [
+        "krish",
+        "krish foods",
+        "krish foods bund garden rd",
+        "krish foods bund garden road"
+      ],
+      "company": "James Smith",
+      "area": "Bund Garden",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Krish Foods Bund Garden Road",
+      "address": "Bund Garden Rd",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-026",
+      "name": "Central Park Smart Hotels (parent)",
+      "aliases": [
+        "central",
+        "central park",
+        "central park smart",
+        "central park smart hotels pvt ltd.",
+        "central park smart parent"
+      ],
+      "company": "James Smith",
+      "area": "Bund Garden / Agarkar Nagar",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Central Park Smart Hotels Pvt Ltd.",
+      "address": "Bund Garden Rd, Agarkar Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-027",
+      "name": "Dorabjee's Camp",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt ltd. (camp)",
+        "dorabjee camp",
+        "dorabjee's"
+      ],
+      "company": "James Smith",
+      "area": "Camp",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt Ltd. (Camp)",
+      "address": "1-B, Moledina Rd, Camp",
+      "phone": "+91 20 4011 0000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-028",
+      "name": "Cafe Peter MG Road",
+      "aliases": [
+        "cafe",
+        "cafe peter",
+        "cafe peter (camp)",
+        "cafe peter camp"
+      ],
+      "company": "James Smith",
+      "area": "Camp / MG Road",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Cafe Peter (Camp)",
+      "address": "2, MG Road, opp. Wonder Land, Camp",
+      "phone": "+91 86429 98642",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-029",
+      "name": "Royal Western India Turf Club (RWITC)",
+      "aliases": [
+        "royal",
+        "royal western",
+        "royal western india turf club",
+        "royal western india turf club ltd.",
+        "royal western india turf club rwitc"
+      ],
+      "company": "James Smith",
+      "area": "Camp / Race Course",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Royal Western India Turf Club Ltd.",
+      "address": "Race Course, 6, Arjun Marg, Camp",
+      "phone": "+91 20 2636 0833",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-030",
+      "name": "DYP Hospitality (likely DY Patil group)",
+      "aliases": [
+        "dyp",
+        "dyp hospitality pvt ltd.",
+        "dyp likely",
+        "dyp likely dy patil group"
+      ],
+      "company": "James Smith",
+      "area": "DY Patil area",
+      "pincode": "411044",
+      "abir_tally": null,
+      "js_tally": "DYP Hospitality Pvt Ltd.",
+      "address": "DY Patil campus, Akurdi / Charholi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-031",
+      "name": "Savr Bakes & Co (Deccan Gymkhana)",
+      "aliases": [
+        "savr",
+        "savr bakes",
+        "savr bakes deccan gymkhana"
+      ],
+      "company": "James Smith",
+      "area": "Deccan Gymkhana",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "Savr Bakes & Co (Deccan Gymkhana)",
+      "address": "Deccan Gymkhana area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-032",
+      "name": "Food Junction Bhandarkar Rd",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction (bhandarkar road)",
+        "food junction bhandarkar road"
+      ],
+      "company": "James Smith",
+      "area": "Deccan Gymkhana / Bhandarkar Rd",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "Food Junction (Bhandarkar Road)",
+      "address": "Shop 3, Dr.Harekar Apt, Bhandarkar Rd, near Kamla Nehru Park, Deccan Gymkhana",
+      "phone": "+91 93250 50675",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-033",
+      "name": "Wadeshwar (FC Road flagship)",
+      "aliases": [
+        "wadeshwar",
+        "wadeshwar fc",
+        "wadeshwar fc road flagship",
+        "wadeshwar restaurant pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Deccan Gymkhana / FC Road",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "Wadeshwar Restaurant Pvt Ltd",
+      "address": "1229/A, Fergusson College Rd, Ganeshwadi, Deccan Gymkhana",
+      "phone": "+91 96070 37511",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-034",
+      "name": "Pass Code Hospitality",
+      "aliases": [
+        "pass",
+        "pass code",
+        "pass code hospitality private limited"
+      ],
+      "company": "James Smith",
+      "area": "Delhi (HQ)",
+      "pincode": "110016",
+      "abir_tally": null,
+      "js_tally": "PASS CODE HOSPITALITY PRIVATE LIMITED",
+      "address": "G-8, 1st Floor, Hauz Khas Market, IIT Delhi area, New Delhi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-035",
+      "name": "Takshashila Hotels (Erandwane)",
+      "aliases": [
+        "takshashila",
+        "takshashila erandawana",
+        "takshashila erandwane",
+        "takshashila hotels pvt ltd (erandawana)"
+      ],
+      "company": "James Smith",
+      "area": "Erandwane",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "TAKSHASHILA HOTELS PVT LTD (ERANDAWANA)",
+      "address": "Erandwane",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-036",
+      "name": "Wise Monks Pizzeria (FC Road)",
+      "aliases": [
+        "wise",
+        "wise monks",
+        "wise monks pizzeria",
+        "wise monks pizzeria fc road"
+      ],
+      "company": "James Smith",
+      "area": "FC Road / Shivajinagar",
+      "pincode": "411016",
+      "abir_tally": null,
+      "js_tally": "Wise Monks Pizzeria",
+      "address": "Fergusson College Rd, next to Lalit Mahal Hotel, Model Colony, Shivajinagar",
+      "phone": "+91 20 6781 3476",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-037",
+      "name": "Food Junction Gaikwad Nagar",
+      "aliases": [
+        "food",
+        "food junction"
+      ],
+      "company": "James Smith",
+      "area": "Gaikwad Nagar / Wakad",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Food Junction Gaikwad Nagar",
+      "address": "Gaikwad Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-038",
+      "name": "E-Square The Fern Pune",
+      "aliases": [
+        "e square fern",
+        "e square fern pune",
+        "e square the fern",
+        "square",
+        "square fern"
+      ],
+      "company": "James Smith",
+      "area": "Ganeshkhind / University Rd",
+      "pincode": "411016",
+      "abir_tally": null,
+      "js_tally": "E SQUARE THE FERN",
+      "address": "Level 5, 133A, University Rd, Premnagar, Ganeshkhind",
+      "phone": "+91 20 6604 4100",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-039",
+      "name": "Santé Spa Cuisine @NESCO",
+      "aliases": [
+        "sante",
+        "sante spa",
+        "sante spa cuisine - nesco",
+        "sante spa cuisine nesco",
+        "santé",
+        "santé spa"
+      ],
+      "company": "James Smith",
+      "area": "Goregaon East, Mumbai",
+      "pincode": "400063",
+      "abir_tally": null,
+      "js_tally": "SANTE SPA CUISINE - NESCO",
+      "address": "Gate 2 Nesco H2FC, Hall 2, Western Express Highway, Goregaon East, Mumbai",
+      "phone": "+91 80971 19024",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-040",
+      "name": "Sonal Barmecha (Sante Spa Cuisine — Mumbai NESCO)",
+      "aliases": [
+        "sonal",
+        "sonal barmecha",
+        "sonal barmecha ( sante spa cuisine)",
+        "sonal barmecha sante spa cuisine",
+        "sonal barmecha sante spa cuisine — mumbai nesco"
+      ],
+      "company": "James Smith",
+      "area": "Goregaon East, Mumbai",
+      "pincode": "400063",
+      "abir_tally": null,
+      "js_tally": "Sonal Barmecha ( Sante Spa Cuisine)",
+      "address": "Goregaon East, Mumbai (NESCO)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-041",
+      "name": "Dorabjee's Hadapsar",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt. ltd. (hadapsar)",
+        "dorabjee hadapsar",
+        "dorabjee's"
+      ],
+      "company": "James Smith",
+      "area": "Hadapsar",
+      "pincode": "411028",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt. Ltd. (Hadapsar)",
+      "address": "Hadapsar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-042",
+      "name": "White Copper Hospitality (Hadapsar)",
+      "aliases": [
+        "white",
+        "white copper",
+        "white copper hadapsar",
+        "white copper hadpsar",
+        "white copper hospitality pvt ltd - hadpsar"
+      ],
+      "company": "James Smith",
+      "area": "Hadapsar",
+      "pincode": "411028",
+      "abir_tally": null,
+      "js_tally": "White Copper Hospitality Pvt Ltd - Hadpsar",
+      "address": "Hadapsar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-043",
+      "name": "Amanora Restaurant (Amanora Park Town)",
+      "aliases": [
+        "amanora",
+        "amanora amanora",
+        "amanora amanora park town",
+        "amanora restaurant llp"
+      ],
+      "company": "James Smith",
+      "area": "Hadapsar / Amanora",
+      "pincode": "411028",
+      "abir_tally": null,
+      "js_tally": "Amanora Restaurant Llp",
+      "address": "Amanora Park Town, Hadapsar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-044",
+      "name": "Amanora The Fern Pune",
+      "aliases": [
+        "amanora",
+        "amanora fern",
+        "amanora fern pune",
+        "city",
+        "city corporation",
+        "city corporation amanora fern",
+        "city corporation limited (amanora - the fern)"
+      ],
+      "company": "James Smith",
+      "area": "Hadapsar / Amanora",
+      "pincode": "411028",
+      "abir_tally": null,
+      "js_tally": "CITY CORPORATION LIMITED (AMANORA - THE FERN)",
+      "address": "Amanora Park Town, Magarpatta Rd, Hadapsar",
+      "phone": "+91 20 6740 9888",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-045",
+      "name": "Eon Hinjewadi Infrastructure",
+      "aliases": [
+        "eon",
+        "eon hinjewadi",
+        "eon hinjewadi infrastructure pvt. ltd."
+      ],
+      "company": "James Smith",
+      "area": "Hinjewadi",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Eon Hinjewadi Infrastructure Pvt. Ltd.",
+      "address": "Hinjewadi (EON IT Park)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-046",
+      "name": "Food Junction Kalyani Nagar",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction (kalyani nagar)"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "Food Junction (Kalyani Nagar)",
+      "address": "Kalyani Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-047",
+      "name": "Mighty Hospitality",
+      "aliases": [
+        "mighty",
+        "mighty hospitality kalyani nagar",
+        "mighty kalyani",
+        "mighty kalyani nagar"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "MIGHTY HOSPITALITY KALYANI NAGAR",
+      "address": "Ground Floor, Kumar Solitaire Building, Aga Khan Palace View Road, Kalyani Nagar",
+      "phone": "+91 76667 69620",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-048",
+      "name": "PA's FNB (Kalyani Nagar)",
+      "aliases": [
+        "pa's",
+        "pa's fnb",
+        "pa's fnb kalyani nagar",
+        "pa's fnb llp - kalyani nagar"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "PA'S FNB LLP - KALYANI NAGAR",
+      "address": "Kalyani Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-049",
+      "name": "Two & Two Hospitality (Kalyani Nagar)",
+      "aliases": [
+        "two",
+        "two & two hospitality llp kalyani nagar",
+        "two two",
+        "two two kalyani nagar"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "TWO & TWO HOSPITALITY LLP KALYANI NAGAR",
+      "address": "Kalyani Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-050",
+      "name": "Le Flamington",
+      "aliases": [
+        "le",
+        "le flamington kalayni nagar"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar / Ramwadi",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "LE FLAMINGTON KALAYNI NAGAR",
+      "address": "Plot 88, East Ave, Palace View Society, Ramwadi, Kalyani Nagar",
+      "phone": "+91 80075 03355",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-051",
+      "name": "Hyatt Pune",
+      "aliases": [
+        "hyatt",
+        "hyatt - pune"
+      ],
+      "company": "James Smith",
+      "area": "Kalyani Nagar / Yerawada",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "Hyatt - Pune",
+      "address": "88, Pune Nagar Rd, adjacent to Aga Khan Palace, Kalyani Nagar",
+      "phone": "+91 20 4141 1234",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-052",
+      "name": "The Forest Club Karjat",
+      "aliases": [
+        "forest",
+        "forest club",
+        "forest club karjat"
+      ],
+      "company": "James Smith",
+      "area": "Karjat",
+      "pincode": "410201",
+      "abir_tally": null,
+      "js_tally": "The Forest Club Karjat",
+      "address": "Karjat",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-053",
+      "name": "Food Junction Karve Nagar",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction (karve nagar)"
+      ],
+      "company": "James Smith",
+      "area": "Karve Nagar",
+      "pincode": "411052",
+      "abir_tally": null,
+      "js_tally": "Food Junction (Karve Nagar)",
+      "address": "Karve Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-054",
+      "name": "Food Junction Kharadi",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction - kharadi"
+      ],
+      "company": "James Smith",
+      "area": "Kharadi",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Food Junction - Kharadi",
+      "address": "Shop No 42, Nyati Plaza, Thite Nagar, Kharadi",
+      "phone": "+91 92701 00314",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-055",
+      "name": "Pawan Burger Cafe",
+      "aliases": [
+        "pawan",
+        "pawan burger",
+        "pawan burger cafe kharadi"
+      ],
+      "company": "James Smith",
+      "area": "Kharadi",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Pawan Burger Cafe Kharadi",
+      "address": "Kharadi South Main Road, Thite Nagar, Kharadi",
+      "phone": "+91 99700 48776",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-056",
+      "name": "Cafe Peter - Kharadi",
+      "aliases": [
+        "cafe",
+        "cafe peter",
+        "cafe peter kharadi"
+      ],
+      "company": "James Smith",
+      "area": "Kharadi / EON",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Cafe Peter Kharadi",
+      "address": "Shop No.1, Global Highstreet, EON Free Zone, Kharadi",
+      "phone": "+91 75498 64986",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-057",
+      "name": "Malaka Spice Kharadi",
+      "aliases": [
+        "malaka",
+        "malaka spice",
+        "malaka spice - kharadi"
+      ],
+      "company": "James Smith",
+      "area": "Kharadi / EON",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "MALAKA SPICE - KHARADI",
+      "address": "Unit 9 & 10, 1st Floor, Global High Street, EON Free Zone, Kharadi",
+      "phone": "+91 91588 84188",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-058",
+      "name": "The Fern Kolhapur",
+      "aliases": [
+        "fern",
+        "fern kolhapur",
+        "padmavati",
+        "padmavati motels",
+        "padmavati motels & resorts pvt. ltd (fern kolhapur)",
+        "padmavati motels resorts fern kolhapur"
+      ],
+      "company": "James Smith",
+      "area": "Kolhapur",
+      "pincode": "416003",
+      "abir_tally": null,
+      "js_tally": "Padmavati Motels & Resorts Pvt. Ltd (FERN KOLHAPUR)",
+      "address": "C.S. 462/B/23, opp. Shahu Market Yard, E Ward, Jadhavwadi, Kolhapur",
+      "phone": "+91 72491 51199",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-059",
+      "name": "Degchi Catering (Kondhwa)",
+      "aliases": [
+        "degchi",
+        "degchi catering",
+        "degchi catering kondhwa",
+        "degchi's",
+        "degchi's catering",
+        "degchi's catering kondhwa",
+        "degchi's catering services ( kondhwa)"
+      ],
+      "company": "James Smith",
+      "area": "Kondhwa",
+      "pincode": "411048",
+      "abir_tally": null,
+      "js_tally": "Degchi's Catering Services ( Kondhwa)",
+      "address": "Kondhwa",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-060",
+      "name": "BB2 Hospitality (KP)",
+      "aliases": [
+        "bb2",
+        "bb2 hospitality llp koregoan park",
+        "bb2 koregoan",
+        "bb2 koregoan park",
+        "bb2 kp"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "BB2 Hospitality LLP Koregoan Park",
+      "address": "Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-061",
+      "name": "Blue Diamond Pune - IHCL SeleQtions (Taj)",
+      "aliases": [
+        "blue",
+        "blue diamond",
+        "blue diamond pune ihcl seleqtions taj",
+        "vivanta",
+        "vivanta - blue diamond pune",
+        "vivanta blue",
+        "vivanta blue diamond pune"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Vivanta - Blue Diamond Pune",
+      "address": "11, Koregaon Rd, Vasani Nagar, Koregaon Park",
+      "phone": "+91 20 6602 5555",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-062",
+      "name": "Chafa Cafe and Studio (Koregaon Park)",
+      "aliases": [
+        "chafa",
+        "chafa cafe",
+        "chafa cafe and studio koregaon park",
+        "fragrant",
+        "fragrant life",
+        "fragrant life * chafa cafe and studio",
+        "fragrant life llp* (chafa cafe and studio)"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "FRAGRANT LIFE LLP* (Chafa Cafe and Studio)",
+      "address": "A1, Aadit Enclave, Lane 5, S Main Rd, Suyojana Society, Koregaon Park",
+      "phone": "+91 97671 00022",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-063",
+      "name": "Dorabjee's Koregaon Park",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt. ltd-koregoan park",
+        "dorabjee koregoan",
+        "dorabjee koregoan park",
+        "dorabjee's",
+        "dorabjee's koregaon"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "DORABJEE & CO. PVT. LTD-KOREGOAN PARK",
+      "address": "Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-064",
+      "name": "Effingut Koregaon Park",
+      "aliases": [
+        "effingut",
+        "effingut breweries",
+        "effingut breweries kp",
+        "effingut breweries pvt. ltd. (kp)",
+        "effingut koregaon"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Effingut Breweries Pvt. Ltd. (KP)",
+      "address": "Plot 389, Serene Bay, Lane 6, Ashok Chakra Society, Meera Nagar, Koregaon Park",
+      "phone": "+91 83909 07410",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-065",
+      "name": "Farro (Jyoti Enterprises, KP)",
+      "aliases": [
+        "farro",
+        "farro (jyoti enterprises",
+        "farro jyoti",
+        "jyoti",
+        "jyoti enterprises  - farro kp",
+        "jyoti farro",
+        "jyoti farro kp"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Jyoti Enterprises  - FARRO KP",
+      "address": "Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-066",
+      "name": "Gulmohar Bar & Curryhouse KP",
+      "aliases": [
+        "begonia",
+        "begonia gulmohar",
+        "gulmohar",
+        "gulmohar bar",
+        "gulmohar bar curryhouse kp",
+        "m s begonia gulmohar curry house",
+        "m/s begonia hospitality llp (gulmohar curry house )"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "M/s Begonia Hospitality LLP (GULMOHAR CURRY HOUSE )",
+      "address": "LG 4 & 5, Power Plaza, Lane 7, Ashok Chakra Society, Meera Nagar, Koregaon Park",
+      "phone": "+91 70661 19995",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-067",
+      "name": "Gulmohar Bar & Curryhouse KP (same as above)",
+      "aliases": [
+        "begonia",
+        "begonia gulmohar",
+        "gulmohar",
+        "gulmohar bar",
+        "gulmohar bar curryhouse kp same as above",
+        "m s begonia gulmohar kp",
+        "m/s begonia hospitality llp - gulmohar kp"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "M/s Begonia Hospitality LLP - Gulmohar KP",
+      "address": "LG 4 & 5, Power Plaza, Lane 7, Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-068",
+      "name": "Malaka Spice (Koregaon Park)",
+      "aliases": [
+        "malaka",
+        "malaka spice",
+        "malaka spice koregaon park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Malaka Spice",
+      "address": "Siddharth Chambers, off North Main Rd, Meera Nagar, Koregaon Park",
+      "phone": "+91 75070 11226",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-069",
+      "name": "Nature's Basket (Koregaon Park)",
+      "aliases": [
+        "nature's",
+        "nature's basket",
+        "nature's basket koregaon park",
+        "nature's basket koregon park",
+        "nature's basket ltd - koregon park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Nature's Basket Ltd - Koregon Park",
+      "address": "Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-070",
+      "name": "O Hotel Pune - Koregaon Park",
+      "aliases": [
+        "o pune koregaon park",
+        "o unit raffles square developments",
+        "pune",
+        "pune koregaon",
+        "the o hotel unit- raffles square developments private limited",
+        "unit",
+        "unit raffles"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "THE O HOTEL UNIT- RAFFLES SQUARE DEVELOPMENTS PRIVATE LIMITED",
+      "address": "15/A, N Main Rd, Vaswani Nagar, Koregaon Park",
+      "phone": "+91 20 6606 6000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-071",
+      "name": "Osho Multimedia & Resort (Osho Commune)",
+      "aliases": [
+        "osho",
+        "osho multimedia",
+        "osho multimedia & resort pvt ltd",
+        "osho multimedia resort",
+        "osho multimedia resort osho commune"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Osho Multimedia & Resort Pvt Ltd",
+      "address": "17 Koregaon Park, Osho International Meditation Resort",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-072",
+      "name": "Pine Tree Hotel / London Muffin Cafe",
+      "aliases": [
+        "pine",
+        "pine tree",
+        "pine tree hotel (london muffin koregoan park )",
+        "pine tree london muffin cafe",
+        "pine tree london muffin koregoan park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Pine Tree Hotel (London Muffin Koregoan Park )",
+      "address": "Lane E area, Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-073",
+      "name": "Prems Hotel Koregaon Park",
+      "aliases": [
+        "prems",
+        "prems koregaon",
+        "prems koregaon park",
+        "the prems hotel koregaon park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "THE PREMS HOTEL KOREGAON PARK",
+      "address": "28/2 N Main Rd, Ragvilas Society, Koregaon Park",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-074",
+      "name": "QORA - Cocktail Bar & Kitchen",
+      "aliases": [
+        "new",
+        "new age",
+        "new age qora",
+        "qora",
+        "qora cocktail",
+        "qora cocktail bar kitchen",
+        "the new age restaurant (qora)"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "THE NEW AGE RESTAURANT (QORA)",
+      "address": "Lane 8, near Godrej Nature's Basket, Suyojana Society, Koregaon Park",
+      "phone": "+91 95792 24420",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-075",
+      "name": "Talli Bar & Kitchen",
+      "aliases": [
+        "leisure",
+        "leisure restrobar",
+        "leisure restrobar pvt ltd (talli k.p)",
+        "leisure restrobar talli k p",
+        "talli",
+        "talli bar",
+        "talli bar kitchen"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Leisure Restrobar Pvt Ltd (Talli K.P)",
+      "address": "Out of the World Building, Lane 7, Ashok Chakra Society, Meera Nagar, Koregaon Park",
+      "phone": "+91 98901 18866",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-076",
+      "name": "The Camden Lane",
+      "aliases": [
+        "camden",
+        "camden lane",
+        "sasha",
+        "sasha camdan",
+        "sasha camdan lane koregaon park",
+        "sasha hospitality - the camdan lane koregaon park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "SASHA HOSPITALITY - The Camdan Lane Koregaon Park",
+      "address": "Lane E, Ragvilas Society, Koregaon Park",
+      "phone": "+91 77579 42396",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-077",
+      "name": "The Daily All Day Pune",
+      "aliases": [
+        "daily",
+        "daily all",
+        "daily all day koregaon park",
+        "daily all day pune",
+        "the daily all day  koregaon park"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "The Daily All Day  Koregaon Park",
+      "address": "Lane 7, Opposite SBI Bank, Meera Nagar, Koregaon Park",
+      "phone": "+91 88882 62800",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-078",
+      "name": "bai mu dan",
+      "aliases": [
+        "bai",
+        "bai mu",
+        "tribes",
+        "tribes beverages",
+        "tribes beverages bai mui dan k p",
+        "tribes beverages private limited (bai mui dan) k.p"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "TRIBES BEVERAGES PRIVATE LIMITED (Bai Mui Dan) K.P",
+      "address": "Lane 1, within Sunderban Resort & Spa, Plot 19, next to Osho International Commune, Koregaon Park",
+      "phone": "+91 788 826 2628",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-079",
+      "name": "Perfect Plate Hospitality (BB1)",
+      "aliases": [
+        "perfect",
+        "perfect plate",
+        "perfect plate bb1",
+        "perfect plate hospitality services llp (bb1 )"
+      ],
+      "company": "James Smith",
+      "area": "Koregaon Park (probable)",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "PERFECT PLATE HOSPITALITY SERVICES LLP (BB1 )",
+      "address": "Pune (likely Koregaon Park — BB chain)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-080",
+      "name": "Burrger Buzz Cafe",
+      "aliases": [
+        "burger",
+        "burger buzz",
+        "burger buzz kothrud",
+        "burrger",
+        "burrger buzz"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "BURGER BUZZ KOTHRUD",
+      "address": "Rambaug Colony Rd, Shivtirth Nagar, Kothrud",
+      "phone": "+91 91463 48453",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-081",
+      "name": "Flamingo Globally Inspired Food (Kothrud)",
+      "aliases": [
+        "flamingo",
+        "flamingo globally",
+        "flamingo globally inspired food kothrud",
+        "le",
+        "le patit",
+        "le patit flamingo",
+        "le patit hospitality - (flamingo)"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "Le Patit Hospitality - (Flamingo)",
+      "address": "Damodar Villa Apt, 20, opp. Kothrud Stand, Rahul Nagar, Kothrud",
+      "phone": "+91 75592 77813",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-082",
+      "name": "Le Petit Hospitality (parent — Flamingo group)",
+      "aliases": [
+        "le",
+        "le petit",
+        "le petit hospitality",
+        "le petit parent — flamingo group"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "Le Petit Hospitality",
+      "address": "Kothrud (Flamingo group)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-083",
+      "name": "White Copper Hospitality (Kothrud)",
+      "aliases": [
+        "white",
+        "white copper",
+        "white copper hospitality pvt ltd kothrud",
+        "white copper kothrud"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "White Copper Hospitality Pvt Ltd Kothrud",
+      "address": "Kothrud",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-084",
+      "name": "Zesty Venture (Kothrud)",
+      "aliases": [
+        "zesty",
+        "zesty venture",
+        "zesty venture kothrud"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "ZESTY VENTURE KOTHRUD",
+      "address": "Kothrud",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-085",
+      "name": "Zesty Ventures (parent)",
+      "aliases": [
+        "zesty",
+        "zesty ventures",
+        "zesty ventures parent"
+      ],
+      "company": "James Smith",
+      "area": "Kothrud (probable)",
+      "pincode": "411038",
+      "abir_tally": null,
+      "js_tally": "ZESTY VENTURES",
+      "address": "Kothrud probable (same as above)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-086",
+      "name": "Mazzo Hoppel",
+      "aliases": [
+        "mazzo"
+      ],
+      "company": "James Smith",
+      "area": "Lohegaon (probable)",
+      "pincode": "411047",
+      "abir_tally": null,
+      "js_tally": "Mazzo Hoppel",
+      "address": "Pune (verify — Lohegaon possible)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-087",
+      "name": "Chintamani Hotel Lonavala",
+      "aliases": [
+        "chintamani",
+        "chintamani hotel pvt. ltd. lonavala",
+        "chintamani lonavala"
+      ],
+      "company": "James Smith",
+      "area": "Lonavala",
+      "pincode": "410401",
+      "abir_tally": null,
+      "js_tally": "Chintamani Hotel Pvt. Ltd. Lonavala",
+      "address": "Lonavala area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-088",
+      "name": "Malharmachi Holiday Resort",
+      "aliases": [
+        "malharmachi",
+        "malharmachi holiday"
+      ],
+      "company": "James Smith",
+      "area": "Lonavala area",
+      "pincode": "410401",
+      "abir_tally": null,
+      "js_tally": "MALHARMACHI HOLIDAY RESORT",
+      "address": "Lonavala-Khandala belt (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-089",
+      "name": "Swapnadeep Krushi Paryatan Kendra (Jalshrusti)",
+      "aliases": [
+        "swapnadeep",
+        "swapnadeep krushi",
+        "swapnadeep krushi paryatan kendra jalshrusti"
+      ],
+      "company": "James Smith",
+      "area": "Lonavala area",
+      "pincode": "410401",
+      "abir_tally": null,
+      "js_tally": "SWAPNADEEP KRUSHI PARYATAN KENDRA (JALSHRUSTI)",
+      "address": "Lonavala / Mulshi belt (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-090",
+      "name": "Swapnadeep Krushi Paryatan Kendra (Malhar Machi)",
+      "aliases": [
+        "swapnadeep",
+        "swapnadeep krushi",
+        "swapnadeep krushi paryatan kendra malhar machi",
+        "swapnadeep krushi prayatan kendra malhar machi",
+        "swapnadeep krushi prayatan kendra(malhar machi)"
+      ],
+      "company": "James Smith",
+      "area": "Lonavala area",
+      "pincode": "410401",
+      "abir_tally": null,
+      "js_tally": "SWAPNADEEP KRUSHI PRAYATAN KENDRA(MALHAR MACHI)",
+      "address": "Malhar Machi area (Lonavala belt)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-091",
+      "name": "Abbas Hussain Chinoy (Mahabaleshwar)",
+      "aliases": [
+        "abbas",
+        "abbas hussain",
+        "abbas hussain chinoy mahabaleshwar"
+      ],
+      "company": "James Smith",
+      "area": "Mahabaleshwar",
+      "pincode": "412806",
+      "abir_tally": null,
+      "js_tally": "Abbas Hussain Chinoy Mahabaleshwar",
+      "address": "Mahabaleshwar property",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-092",
+      "name": "Evershine Resort and Spa",
+      "aliases": [
+        "evershine",
+        "evershine resort",
+        "evershine resort mahabaleshwar"
+      ],
+      "company": "James Smith",
+      "area": "Mahabaleshwar",
+      "pincode": "412806",
+      "abir_tally": null,
+      "js_tally": "Evershine Resort Mahabaleshwar",
+      "address": "C.T.S 182, Gautam Rd, Mahabaleshwar",
+      "phone": "+91 2168 262 000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-093",
+      "name": "Glocal Foodsworks (Mahabaleshwar)",
+      "aliases": [
+        "glocal",
+        "glocal foodsworks",
+        "glocal foodsworks mahabaleshwar",
+        "glocal foodsworks mahableshwar",
+        "glocal foodsworks pvt. ltd. (mahableshwar)"
+      ],
+      "company": "James Smith",
+      "area": "Mahabaleshwar",
+      "pincode": "412806",
+      "abir_tally": null,
+      "js_tally": "Glocal Foodsworks Pvt. Ltd. (Mahableshwar)",
+      "address": "Mahabaleshwar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-094",
+      "name": "Le Méridien Mahabaleshwar Resort & Spa",
+      "aliases": [
+        "le",
+        "le - meridian mahabaleshwar resort & spa",
+        "le meridian",
+        "le meridian mahabaleshwar resort spa",
+        "le méridien",
+        "le méridien mahabaleshwar resort spa"
+      ],
+      "company": "James Smith",
+      "area": "Mahabaleshwar",
+      "pincode": "412806",
+      "abir_tally": null,
+      "js_tally": "Le - Meridian Mahabaleshwar Resort & Spa",
+      "address": "211/212, Medha Road, Mahabaleshwar, Shindola",
+      "phone": "+91 2168 262 222",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-095",
+      "name": "Crown Mart (Mohammadwadi)",
+      "aliases": [
+        "crown",
+        "crown mart",
+        "crown mart ( mahammadwadi)",
+        "crown mart mahammadwadi",
+        "crown mart mohammadwadi"
+      ],
+      "company": "James Smith",
+      "area": "Mohammadwadi",
+      "pincode": "411048",
+      "abir_tally": null,
+      "js_tally": "Crown Mart ( Mahammadwadi)",
+      "address": "Mohammadwadi",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-096",
+      "name": "Bharat Forge (corporate canteen)",
+      "aliases": [
+        "bharat",
+        "bharat forge",
+        "bharat forge corporate canteen",
+        "bharat forge ltd."
+      ],
+      "company": "James Smith",
+      "area": "Mundhwa",
+      "pincode": "411036",
+      "abir_tally": null,
+      "js_tally": "Bharat Forge Ltd.",
+      "address": "Mundhwa industrial complex (Bharat Forge HQ)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-097",
+      "name": "Niravi Culinary (Mundhwa)",
+      "aliases": [
+        "niravi",
+        "niravi culinary",
+        "niravi culinary mundhwa",
+        "niravi culinary mundwa",
+        "niravi culinary pvt ltd mundwa"
+      ],
+      "company": "James Smith",
+      "area": "Mundhwa",
+      "pincode": "411036",
+      "abir_tally": null,
+      "js_tally": "Niravi Culinary Pvt Ltd Mundwa",
+      "address": "Mundhwa",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-098",
+      "name": "The Westin Pune Koregaon Park",
+      "aliases": [
+        "classic",
+        "classic citi",
+        "classic citi investment pvt ltd (westin hotel)",
+        "classic citi investment westin",
+        "westin",
+        "westin pune",
+        "westin pune koregaon park"
+      ],
+      "company": "James Smith",
+      "area": "Mundhwa / KP Annexe",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Classic Citi Investment Pvt Ltd (Westin Hotel)",
+      "address": "36/3-B, Mundhwa Rd, Koregaon Park Annexe, Ghorpadi",
+      "phone": "+91 20 6721 0000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-099",
+      "name": "Dorabjee's NIBM Kondhwa",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt ltd. nibm kondhwa",
+        "dorabjee nibm",
+        "dorabjee nibm kondhwa",
+        "dorabjee's",
+        "dorabjee's nibm"
+      ],
+      "company": "James Smith",
+      "area": "NIBM / Kondhwa",
+      "pincode": "411048",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt Ltd. NIBM Kondhwa",
+      "address": "NIBM Rd, Kondhwa",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-100",
+      "name": "Radisson Blu Hotel & Spa, Nashik",
+      "aliases": [
+        "radisson",
+        "radisson blu",
+        "radisson blu hotel & spa",
+        "radisson blu hotel & spa nashik",
+        "radisson blu spa",
+        "radisson blu spa nashik"
+      ],
+      "company": "James Smith",
+      "area": "Nashik",
+      "pincode": "422010",
+      "abir_tally": null,
+      "js_tally": "Radisson Blu Hotel & Spa Nashik",
+      "address": "CTS 289, Vikrikar Bhavan Rd, Pathardi Phata, Nashik",
+      "phone": "+91 253 664 4500",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-101",
+      "name": "Flint Capital Advisory (Oshiwara)",
+      "aliases": [
+        "flint",
+        "flint capital",
+        "flint capital advisory oshiwara",
+        "flint capital advisory oshiwara mumbai",
+        "flint capital advisory pvt ltd - oshiwara - mumbai"
+      ],
+      "company": "James Smith",
+      "area": "Oshiwara, Mumbai",
+      "pincode": "400053",
+      "abir_tally": null,
+      "js_tally": "Flint Capital Advisory Pvt Ltd - Oshiwara - Mumbai",
+      "address": "Oshiwara, Mumbai",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-102",
+      "name": "Kamat Hotels Panchgani",
+      "aliases": [
+        "kamat",
+        "kamat hotels india limited-panchgani",
+        "kamat india",
+        "kamat india panchgani",
+        "kamat panchgani"
+      ],
+      "company": "James Smith",
+      "area": "Panchgani",
+      "pincode": "412805",
+      "abir_tally": null,
+      "js_tally": "KAMAT HOTELS INDIA LIMITED-PANCHGANI",
+      "address": "Panchgani area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-103",
+      "name": "Kimling Rush (Pimple Saudagar)",
+      "aliases": [
+        "kimling",
+        "kimling rush",
+        "kimling rush pimple saudagar"
+      ],
+      "company": "James Smith",
+      "area": "Pimple Saudagar",
+      "pincode": "411027",
+      "abir_tally": null,
+      "js_tally": "KIMLING RUSH Pimple Saudagar",
+      "address": "Pimple Saudagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-104",
+      "name": "Le Ven Pizzeria & Bistro",
+      "aliases": [
+        "le",
+        "le ven",
+        "le ven pizzeria bistro"
+      ],
+      "company": "James Smith",
+      "area": "Prabhat Rd / Deccan Gymkhana",
+      "pincode": "411004",
+      "abir_tally": null,
+      "js_tally": "Le Ven Pizzeria & Bistro",
+      "address": "Ashirwad - BHALGAT HOUSE, Prabhat Rd, near Irani Cafe, Deccan Gymkhana",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-105",
+      "name": "A Mindfulness LLP (parent)",
+      "aliases": [
+        "a mindfulness",
+        "a mindfulness llp",
+        "a mindfulness parent",
+        "mindfulness",
+        "mindfulness parent"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "A Mindfulness LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-106",
+      "name": "Aadya (verify)",
+      "aliases": [
+        "aadya",
+        "aadya verify"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Aadya",
+      "address": "Pune (unconfirmed)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-107",
+      "name": "Abbas Hussain Chinoy (individual)",
+      "aliases": [
+        "abbas",
+        "abbas hussain",
+        "abbas hussain chinoy",
+        "abbas hussain chinoy individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "ABBAS HUSSAIN CHINOY",
+      "address": "Pune (individual account)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-108",
+      "name": "Aditya Hotels & Hospitalities (parent)",
+      "aliases": [
+        "aditya",
+        "aditya hospitalities",
+        "aditya hospitalities parent",
+        "aditya hotels & hospitalities pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Aditya Hotels & Hospitalities Pvt Ltd",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-109",
+      "name": "Amarii Cafe",
+      "aliases": [
+        "amarii",
+        "m s amarii cafe",
+        "m/s amarii cafe"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "M/S AMARII CAFE",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-110",
+      "name": "Amit Malhotra (individual)",
+      "aliases": [
+        "amit",
+        "amit malhotra",
+        "amit malhotra individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Amit Malhotra",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-111",
+      "name": "Anamik Gurunath Jivane (individual)",
+      "aliases": [
+        "anamik",
+        "anamik gurunath",
+        "anamik gurunath jivane",
+        "anamik gurunath jivane individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "ANAMIK GURUNATH JIVANE",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-112",
+      "name": "Anjani Foods & Beverages (parent)",
+      "aliases": [
+        "anjani",
+        "anjani foods",
+        "anjani foods & beverages",
+        "anjani foods beverages",
+        "anjani foods beverages parent"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "ANJANI FOODS & BEVERAGES",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-113",
+      "name": "Aria Cafe Bahar by Khuzan",
+      "aliases": [
+        "aria",
+        "aria -cafe bahar by khuzan",
+        "aria -cafe bahar by khuzan,",
+        "aria cafe"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Aria -Cafe Bahar by Khuzan,",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-114",
+      "name": "Arthur's Theme (operating entity)",
+      "aliases": [
+        "arrow",
+        "arrow and",
+        "arrow and dice foods arthur's theme",
+        "arrow and dice foods pvt. ltd. (arthur's theme)",
+        "arthur's",
+        "arthur's theme",
+        "arthur's theme operating entity"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Arrow and Dice Foods Pvt. Ltd. (Arthur's Theme)",
+      "address": "Pune (verify — Koregaon Park likely)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-115",
+      "name": "Arthur's Theme restaurant",
+      "aliases": [
+        "arthur's",
+        "arthur's theme"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Arthur's Theme",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-116",
+      "name": "Arya Burger Cafe",
+      "aliases": [
+        "arya",
+        "arya burger"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Arya Burger Cafe",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-117",
+      "name": "Asima Hospitality (parent)",
+      "aliases": [
+        "asima",
+        "asima hospitality",
+        "asima parent"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Asima Hospitality",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-118",
+      "name": "Asima Hospitality LLP (parent)",
+      "aliases": [
+        "asima",
+        "asima hospitality llp",
+        "asima parent"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Asima Hospitality LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-119",
+      "name": "Aviva 24 Ventures (parent)",
+      "aliases": [
+        "aviva",
+        "aviva 24",
+        "aviva 24 ventures",
+        "aviva 24 ventures llp",
+        "aviva 24 ventures parent"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Aviva 24 Ventures Llp",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-120",
+      "name": "BB3 (likely Perfect Plate group)",
+      "aliases": [
+        "bb3",
+        "bb3 likely",
+        "bb3 likely perfect plate group"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "BB3",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-121",
+      "name": "BR Hospitality Services",
+      "aliases": [
+        "b r",
+        "b r hospitality services",
+        "br"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "B R HOSPITALITY SERVICES",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-122",
+      "name": "BTB Marketing",
+      "aliases": [
+        "btb",
+        "btb marketing pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "BTB MARKETING PVT LTD",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-123",
+      "name": "Ba Da Bom (Jeju Korean Kitchen)",
+      "aliases": [
+        "ba",
+        "ba da",
+        "ba da bom jeju korean kitchen",
+        "jeju",
+        "jeju korean",
+        "jeju korean kitchen ba da bom",
+        "jeju korean kitchen llp-ba da bom"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "JEJU KOREAN KITCHEN LLP-Ba Da Bom",
+      "address": "Pune (Korean spot — verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-124",
+      "name": "Billionaire Brothers",
+      "aliases": [
+        "billionaire"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Billionaire Brothers",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-125",
+      "name": "Brewbox Enterprises",
+      "aliases": [
+        "brewbox",
+        "brewbox enterprises llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Brewbox Enterprises Llp",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-126",
+      "name": "Bright Lands Hotels",
+      "aliases": [
+        "bright",
+        "bright lands",
+        "bright lands hotels pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Bright Lands Hotels Pvt Ltd",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-127",
+      "name": "Brioso",
+      "aliases": [],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Brioso",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-128",
+      "name": "Calista Properties",
+      "aliases": [
+        "calista",
+        "calista properties pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Calista Properties Pvt Ltd",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-129",
+      "name": "Clean Bite Cafe (Taste Craft Hospitality)",
+      "aliases": [
+        "clean",
+        "clean bite",
+        "clean bite cafe taste craft",
+        "taste",
+        "taste craft",
+        "taste craft clean bite cafe",
+        "taste craft hospitality-clean bite cafe"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Taste Craft Hospitality-Clean Bite Cafe",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-130",
+      "name": "Complete Sports & Management India",
+      "aliases": [
+        "complete",
+        "complete sports",
+        "complete sports &management india pvt ltd",
+        "complete sports management india"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Complete Sports &Management India Pvt Ltd",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-131",
+      "name": "Craven net",
+      "aliases": [
+        "craven"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Craven net",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-132",
+      "name": "Crown Burger",
+      "aliases": [
+        "crown"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Crown Burger",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-133",
+      "name": "Deepti Ventures",
+      "aliases": [
+        "deepti"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "DEEPTI VENTURES",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-134",
+      "name": "Dough Cup",
+      "aliases": [
+        "dough"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Dough Cup",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-135",
+      "name": "Dr Smita Das (individual)",
+      "aliases": [
+        "dr",
+        "dr smita",
+        "dr smita das",
+        "dr smita das individual",
+        "dr.smita das"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Dr.Smita Das",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-136",
+      "name": "Dudhabhate Venture",
+      "aliases": [
+        "dudhabhate"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Dudhabhate Venture",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-137",
+      "name": "Euroba Foods & Hospitality",
+      "aliases": [
+        "euroba",
+        "euroba foods",
+        "euroba foods & hospitality services pvt. ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "EUROBA FOODS & HOSPITALITY SERVICES PVT. LTD",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-138",
+      "name": "Excell Transport",
+      "aliases": [
+        "excell"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Excell Transport",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-139",
+      "name": "Food for Thought",
+      "aliases": [
+        "food",
+        "food for"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Food for Thought",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-140",
+      "name": "GEN Z",
+      "aliases": [
+        "gen"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "GEN Z",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-141",
+      "name": "GHFS India",
+      "aliases": [
+        "ghfs",
+        "ghfs india private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "GHFS India Private Limited",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-142",
+      "name": "GHV Hotel India",
+      "aliases": [
+        "ghv",
+        "ghv hotel (india) pvt. ltd.",
+        "ghv india"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "GHV Hotel (India) Pvt. Ltd.",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-143",
+      "name": "Gaya Guest House",
+      "aliases": [
+        "gaya",
+        "gaya guest"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Gaya Guest House",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-144",
+      "name": "Green Odyssey",
+      "aliases": [
+        "green",
+        "green odyssey llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Green Odyssey LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-145",
+      "name": "Hind Foods",
+      "aliases": [
+        "hind"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Hind Foods",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-146",
+      "name": "IICCM Global Services",
+      "aliases": [
+        "iiccm",
+        "iiccm global",
+        "iiccm global services private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "IICCM GLOBAL SERVICES PRIVATE LIMITED",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-147",
+      "name": "Innovative Retail Concepts (likely Foodhall / BigBasket parent)",
+      "aliases": [
+        "innovative",
+        "innovative retail",
+        "innovative retail concepts",
+        "innovative retail concepts likely foodhall bigbasket parent",
+        "innovative retail concepts private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Innovative Retail Concepts Private Limited",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-148",
+      "name": "Intactbox Hospitality",
+      "aliases": [
+        "intactbox",
+        "intactbox hospitality llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "INTACTBOX HOSPITALITY LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-149",
+      "name": "JS Foods Enterprises",
+      "aliases": [
+        "js",
+        "js foods"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "JS Foods Enterprises",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-150",
+      "name": "JSM Corporation",
+      "aliases": [
+        "jsm",
+        "jsm corporation private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "JSM CORPORATION PRIVATE LIMITED",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-151",
+      "name": "KVU Food and Hospitality",
+      "aliases": [
+        "kvu",
+        "kvu food",
+        "kvu food and",
+        "kvu food and hospitality llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "KVU FOOD AND HOSPITALITY LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-152",
+      "name": "Karen Anand (culinary brand)",
+      "aliases": [
+        "karen",
+        "karen anand",
+        "karen anand culinary brand"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Karen Anand",
+      "address": "Pune (Karen Anand's Farmers Market / private kitchen)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-153",
+      "name": "King Restaurants",
+      "aliases": [
+        "king",
+        "king restaurants llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "King Restaurants Llp",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-154",
+      "name": "Kiran Jindal (individual)",
+      "aliases": [
+        "kiran",
+        "kiran jindal",
+        "kiran jindal individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Kiran Jindal",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-155",
+      "name": "Korner Store",
+      "aliases": [
+        "korner"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Korner Store",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-156",
+      "name": "Krane Operation & Maintenance Tech Services",
+      "aliases": [
+        "krane",
+        "krane operation",
+        "krane operation and maintenance technology",
+        "krane operation and maintenance technology services private limited",
+        "krane operation maintenance tech"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "KRANE OPERATION AND MAINTENANCE TECHNOLOGY SERVICES PRIVATE LIMITED",
+      "address": "Pune (verify — likely industrial canteen)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-157",
+      "name": "LBO Hospitality",
+      "aliases": [
+        "lbo",
+        "lbo hospitality private ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "LBO HOSPITALITY PRIVATE LTD",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-158",
+      "name": "La Grange",
+      "aliases": [
+        "la"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "LA GRANGE",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-159",
+      "name": "Lekemont Ventures",
+      "aliases": [
+        "lekemont"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "LEKEMONT VENTURES",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-160",
+      "name": "Lightyear Hotel",
+      "aliases": [
+        "lightyear",
+        "lightyear bakhtyaar",
+        "lightyear bakhtyaar khan",
+        "lightyear hotel (bakhtyaar khan)"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Lightyear Hotel (Bakhtyaar Khan)",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-161",
+      "name": "Maia Hospitality & Entertainment",
+      "aliases": [
+        "maia",
+        "maia entertainment"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "MAIA HOSPITALITY & ENTERTAINMENT",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-162",
+      "name": "Medium Raw Hospitality",
+      "aliases": [
+        "medium",
+        "medium raw",
+        "medium raw hospitality private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Medium Raw Hospitality Private Limited",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-163",
+      "name": "Mira Enterprises",
+      "aliases": [
+        "mira"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Mira Enterprises",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-164",
+      "name": "Mon Choux",
+      "aliases": [
+        "mon"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "MON CHOUX",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-165",
+      "name": "Mr Rohan (individual)",
+      "aliases": [
+        "mr",
+        "mr rohan",
+        "mr rohan individual",
+        "mr.rohan"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Mr.ROHAN",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-166",
+      "name": "Mr Zaheer J Vakil (individual)",
+      "aliases": [
+        "mr",
+        "mr zaheer",
+        "mr zaheer j vakil",
+        "mr zaheer j vakil individual",
+        "mr. zaheer j. vakil"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Mr. Zaheer J. Vakil",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-167",
+      "name": "Mrs Ankita Gulati (individual)",
+      "aliases": [
+        "mrs",
+        "mrs ankita",
+        "mrs ankita gulati",
+        "mrs ankita gulati individual",
+        "mrs.ankita gulati"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Mrs.Ankita Gulati",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-168",
+      "name": "Ms Asha Srinivas (individual)",
+      "aliases": [
+        "ms",
+        "ms asha",
+        "ms asha srinivas",
+        "ms asha srinivas individual",
+        "ms.asha srinivas"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Ms.ASHA SRINIVAS",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-169",
+      "name": "Ms Hazel (individual)",
+      "aliases": [
+        "ms",
+        "ms hazel",
+        "ms hazel individual",
+        "ms.hazel"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Ms.HAZEL",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-170",
+      "name": "Ms Monika Wasdev (individual)",
+      "aliases": [
+        "ms",
+        "ms monika",
+        "ms monika wasdev",
+        "ms monika wasdev individual",
+        "ms.monika wasdev"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Ms.MONIKA WASDEV",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-171",
+      "name": "N P Enterprises",
+      "aliases": [
+        "n p"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "N P Enterprises",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-172",
+      "name": "Pankaj (individual)",
+      "aliases": [
+        "pankaj",
+        "pankaj individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Pankaj",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-173",
+      "name": "Parampara Restaurants",
+      "aliases": [
+        "parampara",
+        "parampara restaurants private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "PARAMPARA RESTAURANTS PRIVATE LIMITED",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-174",
+      "name": "Plentos Ventures",
+      "aliases": [
+        "plentos",
+        "plentos ventures private limited."
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Plentos Ventures Private Limited.",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-175",
+      "name": "Prasad Dhanawade (individual)",
+      "aliases": [
+        "prasad",
+        "prasad dhanawade",
+        "prasad dhanawade individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Prasad Dhanawade",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-176",
+      "name": "Prerna S Chaturvedi (individual)",
+      "aliases": [
+        "prerna",
+        "prerna chaturvedi",
+        "prerna s chaturvedi",
+        "prerna s chaturvedi individual",
+        "prerna s. chaturvedi"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Prerna S. Chaturvedi",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-177",
+      "name": "Quality Foods",
+      "aliases": [
+        "quality"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Quality Foods",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-178",
+      "name": "RNJ Ventures",
+      "aliases": [
+        "rnj"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "RNJ VENTURES",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-179",
+      "name": "Rohan Kakde (individual)",
+      "aliases": [
+        "rohan",
+        "rohan kakde",
+        "rohan kakde individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Rohan Kakde",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-180",
+      "name": "Rumi Hospitality",
+      "aliases": [
+        "rumi",
+        "rumi hospitality llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "RUMI HOSPITALITY LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-181",
+      "name": "SK's Crown Burgers",
+      "aliases": [
+        "sk's",
+        "sk's crown",
+        "sk's crown burger's"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "SK's Crown Burger's",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-182",
+      "name": "Sagar Defence Engineering (corporate)",
+      "aliases": [
+        "sagar",
+        "sagar defence",
+        "sagar defence engineering",
+        "sagar defence engineering corporate",
+        "sagar defence engineering private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Sagar Defence Engineering Private Limited",
+      "address": "Pune (verify — industrial canteen)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-183",
+      "name": "Savita Food Products",
+      "aliases": [
+        "savita",
+        "savita  food products",
+        "savita food"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Savita  Food Products",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-184",
+      "name": "Shaan Sir (individual)",
+      "aliases": [
+        "shaan",
+        "shaan sir",
+        "shaan sir individual"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Shaan Sir",
+      "address": "Pune (individual)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-185",
+      "name": "Shubh Enterprises",
+      "aliases": [
+        "shubh"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Shubh Enterprises",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-186",
+      "name": "Sky Hospitality",
+      "aliases": [
+        "sky"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "SKY HOSPITALITY",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-187",
+      "name": "Sunmoi Chinese Restaurant",
+      "aliases": [
+        "sunmoi",
+        "sunmoi chinese"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Sunmoi Chinese Restaurant",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-188",
+      "name": "TCSC Hospitality (Pune-Loose)",
+      "aliases": [
+        "tcsc",
+        "tcsc hospitality pvt. ltd. (pune)-loose",
+        "tcsc pune",
+        "tcsc pune loose"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "TCSC Hospitality Pvt. Ltd. (Pune)-Loose",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-189",
+      "name": "Thawal Foods Products",
+      "aliases": [
+        "thawal",
+        "thawal foods"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Thawal Foods Products",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-190",
+      "name": "The Burger Byte Cafe",
+      "aliases": [
+        "burger",
+        "burger byte",
+        "burger byte cafe"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "The Burger Byte Cafe",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-191",
+      "name": "The Fat & the Sexy Chef",
+      "aliases": [
+        "fat",
+        "fat sexy",
+        "fat sexy chef"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "The Fat & the Sexy Chef",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-192",
+      "name": "Tri Hospitality & Service",
+      "aliases": [
+        "tri",
+        "tri service"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Tri Hospitality & Service",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-193",
+      "name": "Two Pillars Ventures",
+      "aliases": [
+        "two",
+        "two pillars",
+        "two pillars ventures llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Two Pillars Ventures LLP",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-194",
+      "name": "Ultra Deli Essentials",
+      "aliases": [
+        "ultra",
+        "ultra deli",
+        "ultra deli essentials llp"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Ultra Deli Essentials Llp",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-195",
+      "name": "V R Fine Foods",
+      "aliases": [
+        "fine",
+        "fine foods"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "V R Fine Foods",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-196",
+      "name": "V&RO Hospitality",
+      "aliases": [
+        "ro",
+        "v ro",
+        "v&ro hospitality pvt ltd"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "V&RO HOSPITALITY PVT LTD",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-197",
+      "name": "Vicki's Foods",
+      "aliases": [
+        "vicki's"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Vicki's Foods",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-198",
+      "name": "Vicon Imperial India",
+      "aliases": [
+        "vicon",
+        "vicon imperial",
+        "vicon imperial (i) private limited",
+        "vicon imperial i"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Vicon Imperial (I) Private Limited",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-199",
+      "name": "Vijaysinh Hospitality",
+      "aliases": [
+        "vijaysinh",
+        "vijaysinh hospitality private limited"
+      ],
+      "company": "James Smith",
+      "area": "Pune",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "VIJAYSINH HOSPITALITY PRIVATE LIMITED",
+      "address": "Pune (verify)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-200",
+      "name": "Sayaji Hotel Raipur",
+      "aliases": [
+        "sayaji",
+        "sayaji hotels ltd.- raipur",
+        "sayaji raipur"
+      ],
+      "company": "James Smith",
+      "area": "Raipur, Chhattisgarh",
+      "pincode": "492001",
+      "abir_tally": null,
+      "js_tally": "Sayaji Hotels Ltd.- Raipur",
+      "address": "Great Eastern Rd, behind Magneto Mall, Raipur, Chhattisgarh",
+      "phone": "+91 77143 44444",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-201",
+      "name": "RVKLS Hospitality (SB Road)",
+      "aliases": [
+        "rvkls",
+        "rvkls and",
+        "rvkls and management s b road",
+        "rvkls hospitality and management llp - s. b. road",
+        "rvkls sb",
+        "rvkls sb road"
+      ],
+      "company": "James Smith",
+      "area": "SB Road",
+      "pincode": "411016",
+      "abir_tally": null,
+      "js_tally": "RVKLS HOSPITALITY AND MANAGEMENT LLP - S. B. Road",
+      "address": "SB Road",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-202",
+      "name": "24k Kraft Brewzz",
+      "aliases": [
+        "24k",
+        "24k kraft",
+        "24k kraft brewzz & hospitality services llp"
+      ],
+      "company": "James Smith",
+      "area": "SB Road / Model Colony",
+      "pincode": "411016",
+      "abir_tally": null,
+      "js_tally": "24k Kraft Brewzz & Hospitality Services Llp",
+      "address": "3rd Floor Terrace, Pavilion Mall, Senapati Bapat Rd, next to PVR ICON, Model Colony, Shivajinagar",
+      "phone": "+91 91450 12424",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-203",
+      "name": "Dorabjee's SB Road",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt ltd. ( s b road)",
+        "dorabjee road",
+        "dorabjee s b road",
+        "dorabjee's",
+        "dorabjee's sb"
+      ],
+      "company": "James Smith",
+      "area": "SB Road / Model Colony",
+      "pincode": "411016",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt Ltd. ( S B Road)",
+      "address": "SB Road",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-204",
+      "name": "SuBakes Wood Fired Pizzeria",
+      "aliases": [
+        "subakes",
+        "subakes  sadashiv peth",
+        "subakes sadashiv",
+        "subakes sadashiv peth",
+        "subakes wood"
+      ],
+      "company": "James Smith",
+      "area": "Sadashiv Peth",
+      "pincode": "411030",
+      "abir_tally": null,
+      "js_tally": "SUBAKES  Sadashiv Peth",
+      "address": "Shop 2 & 3, Chaitanya Apt, 2063, near SP College, Sadashiv Peth",
+      "phone": "+91 90215 49565",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-205",
+      "name": "Kamat Hotels Sambhajinagar",
+      "aliases": [
+        "kamat",
+        "kamat hotels india limited sambhajinagar",
+        "kamat india",
+        "kamat india sambhajinagar",
+        "kamat sambhajinagar"
+      ],
+      "company": "James Smith",
+      "area": "Sambhajinagar (Aurangabad)",
+      "pincode": "431003",
+      "abir_tally": null,
+      "js_tally": "KAMAT HOTELS INDIA LIMITED Sambhajinagar",
+      "address": "Chhatrapati Sambhajinagar (Aurangabad)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-206",
+      "name": "Kiki Pune",
+      "aliases": [
+        "bhairav",
+        "bhairav hospitaly",
+        "bhairav hospitaly kiki",
+        "bhairav hospitaly pvt ltd - kiki restaurant",
+        "kiki"
+      ],
+      "company": "James Smith",
+      "area": "Sangamvadi / Bund Garden",
+      "pincode": "411001",
+      "abir_tally": null,
+      "js_tally": "Bhairav Hospitaly Pvt Ltd - Kiki Restaurant",
+      "address": "The Mills B Wing 2nd Floor, Raja Bahadur Mills, Station Rd, behind Sheraton Grand",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-207",
+      "name": "Fort JadhavGadh",
+      "aliases": [
+        "fort",
+        "fort jadhav",
+        "fort jadhav gadh saswad"
+      ],
+      "company": "James Smith",
+      "area": "Saswad (outside Pune)",
+      "pincode": "412301",
+      "abir_tally": null,
+      "js_tally": "Fort Jadhav Gadh Saswad",
+      "address": "Fort JadhavGadh Rd, Saswad",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-208",
+      "name": "The Fern Residency Solapur",
+      "aliases": [
+        "fern",
+        "fern residency",
+        "fern residency solapur",
+        "the fern residency",
+        "the fern residency, solapur unit of chpl"
+      ],
+      "company": "James Smith",
+      "area": "Solapur",
+      "pincode": "413003",
+      "abir_tally": null,
+      "js_tally": "THE FERN RESIDENCY, SOLAPUR UNIT OF CHPL",
+      "address": "Motiwala Annexe, Plot 7, Hotgi Road, Anand Nagar, Solapur",
+      "phone": "+91 217 299 3200",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-209",
+      "name": "The Corinthians Resort Pune",
+      "aliases": [
+        "corinthians",
+        "corinthians resort",
+        "corinthians resort pune",
+        "corinthians resorts",
+        "corinthians resorts club unit of nyati resorts",
+        "the corinthians resorts & club_ unit of nyati hotels & resorts pvt ltd."
+      ],
+      "company": "James Smith",
+      "area": "Undri",
+      "pincode": "411060",
+      "abir_tally": null,
+      "js_tally": "The Corinthians Resorts & Club_ Unit of Nyati Hotels & Resorts Pvt Ltd.",
+      "address": "Corinthians Club Internal Rd, Nyati County, Undri",
+      "phone": "+91 20 2695 2222",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-210",
+      "name": "Parayan Beverages (Vadgaon Budruk)",
+      "aliases": [
+        "parayan",
+        "parayan beverages",
+        "parayan beverages and foods llp vadgoan budruk",
+        "parayan beverages and foods vadgoan budruk",
+        "parayan beverages vadgaon budruk"
+      ],
+      "company": "James Smith",
+      "area": "Vadgaon Budruk",
+      "pincode": "411041",
+      "abir_tally": null,
+      "js_tally": "Parayan Beverages And Foods LLP VADGOAN BUDRUK",
+      "address": "Vadgaon Budruk",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-211",
+      "name": "Parayan Beverages (likely duplicate)",
+      "aliases": [
+        "parayan",
+        "parayan beverages",
+        "parayan beverages & foods llp",
+        "parayan beverages foods",
+        "parayan beverages likely duplicate"
+      ],
+      "company": "James Smith",
+      "area": "Vadgaon Budruk (probable)",
+      "pincode": "411041",
+      "abir_tally": null,
+      "js_tally": "PARAYAN BEVERAGES & FOODS LLP",
+      "address": "Pune (Vadgaon Budruk probable)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-212",
+      "name": "Parayan Beverages and Foods (parent)",
+      "aliases": [
+        "parayan",
+        "parayan beverages",
+        "parayan beverages and foods",
+        "parayan beverages and foods llp",
+        "parayan beverages and foods parent"
+      ],
+      "company": "James Smith",
+      "area": "Vadgaon Budruk (probable)",
+      "pincode": "411041",
+      "abir_tally": null,
+      "js_tally": "Parayan Beverages And Foods LLP",
+      "address": "Pune (verify — likely Vadgaon Budruk)",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-213",
+      "name": "Dorabjee's Viman Nagar",
+      "aliases": [
+        "dorabjee",
+        "dorabjee & co. pvt ltd. (vimannagar)",
+        "dorabjee vimannagar",
+        "dorabjee's",
+        "dorabjee's viman"
+      ],
+      "company": "James Smith",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Dorabjee & Co. Pvt Ltd. (Vimannagar)",
+      "address": "Town Square Shopping Center, New Airport Rd, Viman Nagar",
+      "phone": "+91 20 6624 3333",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-214",
+      "name": "Tales & Spirits Viman Nagar",
+      "aliases": [
+        "epula",
+        "epula hospitality llp  - tales & sprite viman nagar",
+        "epula tales",
+        "epula tales sprite viman nagar",
+        "tales",
+        "tales spirits",
+        "tales spirits viman nagar"
+      ],
+      "company": "James Smith",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "EPULA HOSPITALITY LLP  - Tales & Sprite Viman Nagar",
+      "address": "101 Clover Corner, Viman Nagar Rd, opp. Udaan Biodiversity Park, Viman Nagar",
+      "phone": "+91 74474 47750",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-215",
+      "name": "Where Else Diner & Bar",
+      "aliases": [
+        "cafe",
+        "cafe moghul",
+        "cafe moghul private limited (where else dinner )",
+        "cafe moghul where else dinner",
+        "where",
+        "where else",
+        "where else diner bar"
+      ],
+      "company": "James Smith",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "CAFE MOGHUL PRIVATE LIMITED (Where Else Dinner )",
+      "address": "Villa #18, Where Else Street, Gulmohar Galaxy, Viman Nagar",
+      "phone": "+91 84548 38648",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-216",
+      "name": "Zortea Hospitality (Viman Nagar)",
+      "aliases": [
+        "zortea",
+        "zortea hospitality viman nagar",
+        "zortea viman",
+        "zortea viman nagar"
+      ],
+      "company": "James Smith",
+      "area": "Viman Nagar",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Zortea Hospitality Viman Nagar",
+      "address": "Viman Nagar",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-217",
+      "name": "Casino Air Caterers & Flight Services (CAFS)",
+      "aliases": [
+        "anjali",
+        "anjali casino",
+        "anjali casino air caterers flight",
+        "anjali hotels pvt ltd (casino air caterers & flight services)",
+        "casino",
+        "casino air",
+        "casino air caterers flight cafs"
+      ],
+      "company": "James Smith",
+      "area": "Viman Nagar / Airport",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "ANJALI HOTELS PVT LTD (Casino Air Caterers & Flight Services)",
+      "address": "2, Sakore Nagar, Viman Nagar (near Pune Airport)",
+      "phone": "+91 20 2663 2700",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-218",
+      "name": "Adventure Hospitality (Wadgaon Sheri)",
+      "aliases": [
+        "adventure",
+        "adventure hospitality llp (wadgaon sheri)",
+        "adventure wadgaon",
+        "adventure wadgaon sheri"
+      ],
+      "company": "James Smith",
+      "area": "Wadgaon Sheri",
+      "pincode": "411014",
+      "abir_tally": null,
+      "js_tally": "Adventure Hospitality Llp (Wadgaon Sheri)",
+      "address": "Wadgaon Sheri area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-219",
+      "name": "Clove Family Restaurant & Bar (Wakad)",
+      "aliases": [
+        "clove",
+        "clove family",
+        "clove family bar wakad",
+        "clove restaurant"
+      ],
+      "company": "James Smith",
+      "area": "Wakad",
+      "pincode": "411033",
+      "abir_tally": null,
+      "js_tally": "Clove Restaurant",
+      "address": "Bhumkar Chowk Rd, Bhagwan Nagar, Wakad",
+      "phone": "+91 98508 87765",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-220",
+      "name": "Sahara Family Restaurant & Bar (Wakad)",
+      "aliases": [
+        "sahara",
+        "sahara family",
+        "sahara family bar wakad",
+        "sahara hotel  wakad",
+        "sahara wakad"
+      ],
+      "company": "James Smith",
+      "area": "Wakad",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "SAHARA HOTEL  Wakad",
+      "address": "Hinjawadi-Aundh Rd, near Yug Honda, Shedge Vasti, Wakad",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-221",
+      "name": "Caffè Allora",
+      "aliases": [
+        "bellona",
+        "bellona hospitality service ltd. wakad (allora)",
+        "bellona service",
+        "bellona service wakad allora",
+        "caffè"
+      ],
+      "company": "James Smith",
+      "area": "Wakad / Phoenix Mall",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Bellona Hospitality Service Ltd. Wakad (Allora)",
+      "address": "Shop 132, 3rd Floor, Phoenix Mall of the Millennium, Wakad",
+      "phone": "+91 86579 40134",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-222",
+      "name": "Caffè Allora (duplicate Tally entry)",
+      "aliases": [
+        "bellona",
+        "bellona allora",
+        "bellona hospitality services ltd. (allora)",
+        "caffè",
+        "caffè allora",
+        "caffè allora duplicate tally entry"
+      ],
+      "company": "James Smith",
+      "area": "Wakad / Phoenix Mall",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Bellona Hospitality Services Ltd. (Allora)",
+      "address": "Phoenix Mall of the Millennium, Wakad",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-223",
+      "name": "Eight (Bellona Group, Wakad)",
+      "aliases": [
+        "bellona",
+        "bellona hospitality service ltd. wakad -eight",
+        "bellona service",
+        "bellona service wakad eight",
+        "eight",
+        "eight (bellona group",
+        "eight bellona",
+        "eight bellona group"
+      ],
+      "company": "James Smith",
+      "area": "Wakad / Phoenix Mall",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Bellona Hospitality Service Ltd. Wakad -Eight",
+      "address": "Phoenix Mall of the Millennium area, Wakad",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-224",
+      "name": "Ishaara",
+      "aliases": [
+        "bellona",
+        "bellona hospitality service ltd. wakad (ishara)",
+        "bellona service",
+        "bellona service wakad ishara"
+      ],
+      "company": "James Smith",
+      "area": "Wakad / Phoenix Mall",
+      "pincode": "411057",
+      "abir_tally": null,
+      "js_tally": "Bellona Hospitality Service Ltd. Wakad (Ishara)",
+      "address": "3rd Floor, T-54-55, Phoenix Mall of the Millennium, Wakad",
+      "phone": "+91 86579 40132",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-225",
+      "name": "Food Junction New Wanowrie",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction - new wanwadi",
+        "food junction new wanwadi"
+      ],
+      "company": "James Smith",
+      "area": "Wanowrie",
+      "pincode": "411040",
+      "abir_tally": null,
+      "js_tally": "FOOD JUNCTION - NEW WANWADI",
+      "address": "Wanowrie new area",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-226",
+      "name": "Food Junction Wanowrie",
+      "aliases": [
+        "food",
+        "food junction",
+        "food junction (wanawadi)",
+        "food junction wanawadi"
+      ],
+      "company": "James Smith",
+      "area": "Wanowrie",
+      "pincode": "411040",
+      "abir_tally": null,
+      "js_tally": "Food Junction (Wanawadi)",
+      "address": "Shop 14 & 15 Anusuya Enclave, Jagtap Chowk, Wanowrie",
+      "phone": "+91 20 2680 3020",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-227",
+      "name": "The Ritz-Carlton, Pune",
+      "aliases": [
+        "ritz",
+        "ritz carlton",
+        "ritz carlton pune",
+        "the ritz-carlton",
+        "the ritz-carlton pune"
+      ],
+      "company": "James Smith",
+      "area": "Yerawada",
+      "pincode": "411006",
+      "abir_tally": null,
+      "js_tally": "The Ritz-Carlton Pune",
+      "address": "Golf Course Square, Airport Rd, Jayprakash Nagar, Yerawada",
+      "phone": "+91 20 6767 5000",
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-228",
+      "name": "Cash Sales (accounting line — not a real customer)",
+      "aliases": [
+        "cash",
+        "cash sales",
+        "cash sales accounting line — not a real customer"
+      ],
+      "company": "James Smith",
+      "area": "—",
+      "pincode": "—",
+      "abir_tally": null,
+      "js_tally": "Cash Sales",
+      "address": "—",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    },
+    {
+      "id": "JS-229",
+      "name": "Unexplained / Suspense (accounting line — not a customer)",
+      "aliases": [
+        "unexplaim",
+        "unexplaim (sundry debtors)",
+        "unexplaim sundry",
+        "unexplaim sundry debtors",
+        "unexplained",
+        "unexplained suspense",
+        "unexplained suspense accounting line — not a customer"
+      ],
+      "company": "James Smith",
+      "area": "—",
+      "pincode": "—",
+      "abir_tally": null,
+      "js_tally": "Unexplaim (Sundry Debtors)",
+      "address": "—",
+      "phone": null,
+      "credit_days": 30,
+      "match_status": "James Smith Only"
+    }
+  ],
+  "count": 316,
+  "source": "Combined_Master_Abir_JamesSmith.xlsx"
+}
