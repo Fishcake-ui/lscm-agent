@@ -16,18 +16,12 @@ Local run:
 
 import logging
 import os
+from contextlib import asynccontextmanager
 from typing import Any, Optional
 
 import uvicorn
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
-
-from parse_order import (
-    CUSTOMER_MASTER,
-    MODEL_HAIKU,
-    MODEL_SONNET,
-    parse_order,
-)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -35,7 +29,30 @@ logging.basicConfig(
 )
 log = logging.getLogger("lscm")
 
-app = FastAPI(title="LSCM Order Agent", version="0.1.0")
+# Importing parse_order triggers the customer-master load (Sheets or local).
+# The loader logs its source + count, so by the time the app boots we already
+# know whether we're running on real data.
+from parse_order import (  # noqa: E402  (intentional: log basicConfig first)
+    CUSTOMER_MASTER,
+    MODEL_HAIKU,
+    MODEL_SONNET,
+    parse_order,
+)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    sheet_id = os.getenv("GOOGLE_SHEET_ID")
+    source = "google_sheet" if (sheet_id and os.getenv("GOOGLE_SHEETS_CREDENTIALS_JSON")) else "local"
+    log.info(
+        "lscm-agent startup: customer_master=%d entries, source=%s, sheet_id=%s",
+        len(CUSTOMER_MASTER), source, sheet_id or "(none)",
+    )
+    yield
+    log.info("lscm-agent shutdown")
+
+
+app = FastAPI(title="LSCM Order Agent", version="0.1.0", lifespan=lifespan)
 
 
 class ParseRequest(BaseModel):

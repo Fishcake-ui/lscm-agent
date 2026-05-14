@@ -25,6 +25,8 @@ import sys
 import time
 from difflib import get_close_matches
 
+import sheets_loader
+
 # ---------------- CONFIG ----------------
 MODEL_HAIKU = "claude-haiku-4-5-20251001"
 MODEL_SONNET = "claude-sonnet-4-6"
@@ -41,16 +43,11 @@ PRICING = {
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CUSTOMERS_PATH = os.path.join(SCRIPT_DIR, "customers.json")
 
-# ---------------- CUSTOMER MASTER (loaded from JSON) ----------------
-def _load_customers():
-    if not os.path.exists(CUSTOMERS_PATH):
-        print(f"WARNING: {CUSTOMERS_PATH} not found. Using empty master.")
-        return []
-    with open(CUSTOMERS_PATH, encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("customers", [])
-
-CUSTOMER_MASTER = _load_customers()
+# ---------------- CUSTOMER MASTER ----------------
+# Prefer Google Sheets (when GOOGLE_SHEET_ID + GOOGLE_SHEETS_CREDENTIALS_JSON
+# are set in env), otherwise fall back to local customers.json. Source + count
+# are logged by sheets_loader.
+CUSTOMER_MASTER = sheets_loader.load_customers(local_path=CUSTOMERS_PATH)
 
 
 def lookup_customer(query: str) -> dict:
