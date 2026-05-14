@@ -202,7 +202,8 @@ def _build_reply(parsed: dict) -> str:
     Keeps it under ~200 chars so it's readable in a chat bubble.
     """
     if "error" in parsed:
-        return f"[LSCM] Parse error: {parsed[\"error\"][:80]}"
+        err = parsed.get("error", "unknown")[:80]
+        return f"[LSCM] Parse error: {err}"
 
     customer = parsed.get("customer_match")
     cname = customer["name"] if customer else "Unknown customer"
